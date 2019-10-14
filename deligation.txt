@@ -1,0 +1,12 @@
+Styrmir
+set up project environment and commands (sass, lint, local server etc) - 2 day
+fonts
+
+
+Hrafnhildur
+header and footer
+
+
+
+Olof
+form styling
