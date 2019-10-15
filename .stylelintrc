@@ -1,6 +1,7 @@
 {
   "extends": "stylelint-config-primer",
   "rules": {
-    "plugin/no-unsupported-browser-features": null
+    "plugin/no-unsupported-browser-features": null,
+    "comment-no-empty": true
   }
 }
