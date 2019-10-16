@@ -1,5 +1,3 @@
-@import "scss/config";
-
 * {
   padding: 0;
   margin: 0;
@@ -19,5 +17,11 @@ html { /* stylelint-disable-line */
   font-size: 16px;
 }
 
-// TODO sækja allar sass skrár
-@import "scss/...";
+main { /* stylelint-disable-line */
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+// import scss files
+@import "scss/config.scss";
+@import "scss/site-grid.scss";
