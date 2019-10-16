@@ -1,0 +1,81 @@
+@import "config";
+
+.nav {
+    margin-bottom: $gutter;
+
+    &_row {
+        @include row();
+        flex-wrap: wrap;
+    }
+
+    &_list {
+        @include columns(12);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: $gutter;
+        list-style: none;
+
+        @media (min-width: 800px) {
+            @include columns(6);
+            @include offset-left(3);
+            margin-bottom: 0;
+        }
+    }
+
+    &_item {
+        display: flex;
+        margin-right: $gutter * 0.5;
+        margin-left: $gutter * 0.5;
+        font-size: 1rem;
+    }
+
+    &_link {
+        font-weight: bold;
+        color: $color1;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        transition: color $transition;
+
+        &:hover {
+            color: $color2;
+        }
+    }
+
+    &_item-active &_link {
+        text-decoration: underline;
+    }
+
+    &_cart {
+        @include columns(12);
+        display: flex;
+        justify-content: center;
+
+        @media (min-width: 800px) {
+            @include columns(2);
+            @include offset-left(1);
+
+            justify-content: flex-end;
+        }
+    }
+
+    &_button {
+        padding-right: $gutter;
+        padding-left: 30px;
+        color: $color1;
+        text-decoration: none;
+        background-image: url("img/cart.svg")
+        background-repeat: no-repeat;
+        transition: color $transition;
+
+        &:hover {
+            color: $color3
+        }
+
+        @media (min-width: $max-width) {
+            padding-right: 0;
+        }
+    }
+}
