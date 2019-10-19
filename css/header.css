@@ -1,0 +1,14 @@
+.header {
+  margin-bottom: 2.5em;
+  background-color: #000000; }
+  .header_content {
+    display: flex;
+    max-width: 75em;
+    margin: 0 auto;
+    flex-direction: column; }
+  .header_title {
+    margin-bottom: 1.25em;
+    font-family: "Oswald", verdana, serif;
+    font-size: 3.75rem;
+    font-weight: 600;
+    text-align: center; }

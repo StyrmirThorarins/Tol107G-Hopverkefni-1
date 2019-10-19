@@ -1,8 +1,10 @@
+@import "scss/config.scss";
+
 .grid-container {
     width: 100%;
 }
 
-.row {
+@mixin row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -($gutter / 2);
@@ -14,7 +16,7 @@
     width: ($col / 12 * 100) * 1%;
 }
 
-.col {
+@mixin col {
     padding-right: $gutter / 2;
     padding-left: $gutter / 2;
 
