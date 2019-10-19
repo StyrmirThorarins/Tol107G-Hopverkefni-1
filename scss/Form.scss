@@ -1,24 +1,24 @@
 button {
-	background-color: $background_color_1;
+	background-color: $color-4;
 	margin: 1rem;
 	border: none;
 	color: $color_1;
 	padding: 1em 6.25rem;
 	text-align: center;
-	font-size: 16px;
-	border-radius: 3px;
+	font-size: 1rem;
+	border-radius: 0.1875rem;
 	align-self: center;
 }
 .form {
-	max-width: 400px;
+	max-width: 25rem;
 	margin: 1rem;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 input {
 	display: inline;
 	margin: 0.5rem;
-	border: 1px solid #000000;
-	border-radius: 3px;
+	border: 0.0625rem solid $color_1;
+	border-radius: 0.1875rem;
 	width: 12.5rem;
 	height: 2rem;
 	padding: 0.5rem;
@@ -26,27 +26,27 @@ input {
 .month {
 	display: inline;
 	margin: 0.5rem;
-	border: 1px solid #000000;
-	border-radius: 3px;
-	width: 60px;
-	height: 36px;
+	border: 0.0625rem solid $color_1;
+	border-radius: 0.1875rem;
+	width: 3.75rem;
+	height: 2.25rem;
 	padding: 0.5rem;
 }
 .year {
 	display: inline;
 	margin: 0.5rem;
-	border: 1px solid #000000;
-	border-radius: 3px;
-	width: 80px;
-	height: 36px;
+	border: 0.0625rem solid $color_1;
+	border-radius: 0.1875rem;
+	width: 5rem;
+	height: 2.25rem;
 	padding: 0.5rem;
 }
 .course {
 	display: inline;
 	margin: 0.5rem;
-	border: 1px solid #000000;
-	border-radius: 3px;
-	width: 150px;
-	height: 36px;
+	border: 0.0625 solid $color_1;
+	border-radius: 0.1875rem;
+	width: 9.4rem;
+	height: 2.25rem;
 	padding: 0.5rem;
 }
