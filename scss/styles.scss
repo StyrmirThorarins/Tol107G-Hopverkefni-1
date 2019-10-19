@@ -1,3 +1,5 @@
+@import "scss/config.scss";
+
 * {
   padding: 0;
   margin: 0;
@@ -23,8 +25,8 @@ main { /* stylelint-disable-line */
 }
 
 // import scss files
-@import "scss/config.scss";
-@import "scss/site-grid.scss";
-@import "scss/Form.scss";
-@import "scss/footer.scss";
-@import "scss/header.scss";
+//@import "scss/config.scss";
+// @import "scss/site-grid.scss";
+// @import "scss/form.scss";
+// @import "scss/footer.scss";
+// @import "scss/header.scss";

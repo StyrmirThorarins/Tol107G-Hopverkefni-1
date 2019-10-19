@@ -15,10 +15,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "browser-sync": "browser-sync start --server --files index.html styles.css",
-    "sass": "node-sass styles.scss styles.css -w",
+    "browser-sync": "browser-sync start --server --files index.html styles.css",    
     "dev": "npm-run-all --parallel sass browser-sync",
-    "lint": "stylelint styles.scss --syntax scss"
+    "lint": "stylelint styles.scss --syntax scss",
+
+    "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",

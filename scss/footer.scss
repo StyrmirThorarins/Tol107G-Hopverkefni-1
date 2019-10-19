@@ -1,8 +1,10 @@
-@import "config";
+@import "scss/config.scss";
+@import "scss/site-grid.scss";
+
 
 .footer {
     width: 100%;
-    background-color: $color4;
+    background-color: $color-4;
 
     &_container {
         max-width: $max-width;
@@ -46,19 +48,19 @@
     }
 
     &_link {
-        color: $color5;
+        color: $color-5;
         text-decoration: none;
         transition: color $transition;
 
         &:hover {
-            color: $color1;
+            color: $color-1;
         }
     }
 
     &_copyright {
-        widht: 100%;
+        width: 100%;
         max-width: $max-width;
         font-size: 0.875rem;
-        text-aligh: center;
+        text-align: center;
     }
 }
