@@ -24,9 +24,16 @@ main { /* stylelint-disable-line */
   margin: 0 auto;
 }
 
-// import scss files
-//@import "scss/config.scss";
-// @import "scss/site-grid.scss";
-// @import "scss/form.scss";
-// @import "scss/footer.scss";
-// @import "scss/header.scss";
+.rotate-card {
+  width: 300px;
+  height: 200px;
+  background: pink;
+  text-align: center;
+  font-size: 5em;
+  padding-top: 100px;
+  margin: 200px 0 0 200px;
+}
+
+.rotate-card:hover {
+  transform: translate3d(-80px, 80px, 10px) rotate3d(1, 2, -1, 192deg) scale(1.2);
+}
