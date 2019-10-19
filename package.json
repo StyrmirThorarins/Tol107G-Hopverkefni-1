@@ -16,7 +16,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files index.html styles.css",    
-    "dev": "npm-run-all --parallel sass browser-sync",
+    "dev": "npm-run-all --parallel scss browser-sync",
     "lint": "stylelint styles.scss --syntax scss",
 
     "scss": "node-sass --watch scss -o css"
