@@ -13,6 +13,7 @@
 
     &_container {
         max-width: 100%;
+
     }
     &_row {
         @include row;
@@ -26,7 +27,11 @@
         justify-content: center;
     }
 
+    &_content{
+        display: wrap;
+    }
     &_pic {
         max-width: 100%;
+
     }
 }
