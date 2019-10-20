@@ -12,26 +12,62 @@
     
 
     &_container {
-        max-width: 100%;
+        max-width: $max-width;
+        padding: $gutter;
 
     }
     &_row {
         @include row;
+        padding: $gutter*0.5;
     }
 
     &_col-6 {
         @include columns (6);
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: $gutter*0.5;
     }
 
     &_content{
         display: wrap;
+        padding: $gutter*0.5;
     }
     &_pic {
         max-width: 100%;
 
     }
+}
+
+.button {
+    
+    background-color: $color-4;
+    height: 2.5rem;
+    width: 15rem;
+    margin-top: 2rem;
+    color: $color-1;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    align-self: flex-start;
+
+    &:hover{
+        color: $color-5;
+        background-color: $color-3;
+    }
+}
+
+.heading2 {
+    font-size: 2rem;
+    font-family: Oswald, Verdana, serif;
+}
+
+.main_text{
+    font-size: 1.3125rem; /*21px*/
+    font-family: Open Sans, helvetica;
+    margin-top: 2rem;
+
+
 }

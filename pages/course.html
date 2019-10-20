@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/site-grid.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -40,56 +41,59 @@
         </nav>
     </header>
 
-    <div class="grid-container">
-        <div class="row">
-          <div class="col-6">
-              <h2>Almennar upplýsingar</h2>
-              <div class="form_item">
-                <label for="cardholder">Nafn:</label>
-                <input type="text" name="name">
-              </div>
-              <div class="form_item">
-                <label for="address">Heimilisfang</label>
-                <input type="text" name="address">
-              </div>
-              <div class="form_item">
-                <label for="age">Aldur:</label>
-                <input type="number">
-              </div>
-              <div class="form_item">
-                <label for="course">Námskeið:</label>
-                <select class="course" name="course">
-                  <option value="V0V1">V0 - V1</option>
-                  <option value="V2V5">V2 - V5</option>
-                  <option value="V5V7">V5 - V7</option>
-                  <option value="kids">Krakkanámskeið</option>
-                  <option value="Fjallaklifur">Fjallaklifur</option>
-                </select>
-              </div>
-          </div>
-          <div class="col-6">
-            <div class="form">
-              <h2>Greiðsluupplýsingar</h2>
-              <div class="form_item">
-                <label for="cardnr">Kortanúmer</label>
-                <input type="number" name="cardnr">
-              </div>
-              <div class="form_item">
-                <label for="cardholder">Korthafi:</label>
-                <input type="text" name="cardholder">
-              </div>
-              <div class="form_item">
-                <div class="valid">
-                  <label for="valid">Gildistími:</label>
-                  <label for=""
-
+    <div class="grid">
+      <div class="grid-container">
+          <div class="grid_row">
+            <div class="grid_col-6">
+              <div class="form"></div>
+                <h2>Almennar upplýsingar</h2>
+                <div class="form_item">
+                  <label for="cardholder">Nafn:</label>
+                  <input type="text" name="name">
+                </div>
+                <div class="form_item">
+                  <label for="address">Heimilisfang</label>
+                  <input type="text" name="address">
+                </div>
+                <div class="form_item">
+                  <label for="age">Aldur:</label>
+                  <input type="number">
+                </div>
+                <div class="form_item">
+                  <label for="course">Námskeið:</label>
+                  <select class="course" name="course">
+                    <option value="V0V1">V0 - V1</option>
+                    <option value="V2V5">V2 - V5</option>
+                    <option value="V5V7">V5 - V7</option>
+                    <option value="kids">Krakkanámskeið</option>
+                    <option value="Fjallaklifur">Fjallaklifur</option>
+                  </select>
                 </div>
               </div>
             </div>
-            <button>Kaupa</button>
+            <div class="grid_col-6">
+              <div class="form">
+                <h2>Greiðsluupplýsingar</h2>
+                <div class="form_item">
+                  <label for="cardnr">Kortanúmer</label>
+                  <input type="number" name="cardnr">
+                </div>
+                <div class="form_item">
+                  <label for="cardholder">Korthafi:</label>
+                  <input type="text" name="cardholder">
+                </div>
+                <div class="form_item">
+                  <div class="valid">
+                    <label for="valid">Gildistími:</label>
+                    <label for=""></label>
+                  </div>
+                </div>
+              </div>
+              <button>Kaupa</button>
+            </div>
           </div>
-        </div>
-        </div>
+          </div>
+      </div>
 
 
 
