@@ -4,44 +4,29 @@
 @import "scss/site-grid.scss";
 
 .grid {
-    width: 80%;
+    width: 100%;
     background-color: $color-5;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
 
     &_container {
-        max-width: $max-width*0.8;
-        padding-top: $gutter*2;
-        padding-bottom: $gutter*2;
-        margin: 0 auto;
-
-        @media (max-width: $max-width -1) {
-            padding-right: $gutter;
-            padding-left: $gutter;
-        }
+        max-width: 100%;
     }
     &_row {
         @include row;
-        margin-bottom: $gutter *2;
-        flex-wrap: wrap;
     }
 
     &_col-6 {
         @include columns (6);
-        margin-bottom: $gutter;
-
-        @media (min-width: 900px) {
-            @include columns(3);
-            margin-bottom: 0;
-        }
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
-    &pic {
-        padding: $gutter;
-        &-1 {
-            @import url('img/team.jpg');
-        }
-        &-2 {
-            @import "img/team.jpg";
-        }
+    &_pic {
+        max-width: 100%;
     }
 }

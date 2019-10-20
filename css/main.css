@@ -1,37 +1,26 @@
 @charset "UTF-8";
 /* Almennt útlit fyrir meginmál á síðum */
-@import url(img/climbing-store.jpg);
-@import url(img/team.jpg);
 .grid-container {
   width: 100%; }
 
 .grid {
-  width: 80%;
-  background-color: #ffffff; }
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   .grid_container {
-    max-width: 60em;
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
-    margin: 0 auto; }
-    @media (max-width: 75em -1) {
-      .grid_container {
-        padding-right: 1.25em;
-        padding-left: 1.25em; } }
+    max-width: 100%; }
   .grid_row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -0.625em;
-    margin-left: -0.625em;
-    margin-bottom: 2.5em;
-    flex-wrap: wrap; }
+    margin-left: -0.625em; }
   .grid_col-6 {
     width: 50%;
-    margin-bottom: 1.25em; }
-    @media (min-width: 900px) {
-      .grid_col-6 {
-        width: 25%;
-        margin-bottom: 0; } }
-  .gridpic {
-    padding: 1.25em; }
-    .gridpic-1 { }
-    .gridpic-2 { }
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .grid_pic {
+    max-width: 100%; }
