@@ -17,7 +17,8 @@
     flex-wrap: wrap;
     margin-right: -0.625em;
     margin-left: -0.625em;
-    padding: 0.625em; }
+    padding: 0.625em;
+    flex-wrap: wrap; }
   .grid_col-4 {
     width: 33.33333%;
     display: flex;
@@ -71,6 +72,11 @@
   font-family: Open Sans, helvetica;
   margin-top: 2rem; }
 
+.header_price {
+  font-size: 2rem;
+  font-family: Oswald, Verdana, serif;
+  margin-top: 2rem; }
+
 .staff {
   padding: 0.625em; }
   .staff_card {
@@ -82,5 +88,12 @@
   .staff_pic {
     max-width: 100%; }
 
-.cart_img {
-  max-width: 100%; }
+.cart {
+  padding: 0.625em;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .cart_img {
+    max-width: 100%; }
+  .cart_form {
+    flex-wrap: wrap; }
