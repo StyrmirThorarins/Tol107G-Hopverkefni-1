@@ -1,16 +1,25 @@
 Styrmir
 -----------
-set up project environment and commands (sass, lint, local server etc) - 2 day
+x set up project environment and commands (sass, lint, local server etc) - 2 day
 x look up and add fonts to head
-
-
+finish animation
+combine css files to 3 (styles, config, site-grid)
+run stylelint on scss files
+re-add gitignore for .css
+finish readme
+responsive css missing for grid
 
 Hrafnhildur
 -----------
-header and footer
-
-
+x header and footer
+BEM'ify all css
+vantar mynd fyrir innkaupakorfu
+responsive page testing and css fixes
+meaningful html tags where applicable
 
 Olof
 -----------
-form styling
+finish styling for forms
+basket page not finished
+responsive page testing and css fixes
+meaningful html tags where applicable
