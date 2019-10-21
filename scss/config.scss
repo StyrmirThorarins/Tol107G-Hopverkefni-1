@@ -1,9 +1,11 @@
+/* SCSS variables for page */
+
 // colors
-$color-1: #000000;
+$color-1: #000;
 $color-2: #fffcf2;
 $color-3: #ff5000;
 $color-4: #00b7ff;
-$color-5: #ffffff;
+$color-5: #fff;
 
 // spacings
 $max-width: 75em; // 1200px 1
@@ -13,4 +15,5 @@ $gutter: 1.25em; // 20px
 $font-main: "Open Sans", helvetica, arial, sans-serif;
 $font-heading: "Oswald", verdana, serif;
 
+// animation
 $transition: 200ms ease-in-out;

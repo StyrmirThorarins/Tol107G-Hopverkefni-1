@@ -3,9 +3,9 @@ Styrmir
 x set up project environment and commands (sass, lint, local server etc) - 2 day
 x look up and add fonts to head
 finish animation
-combine css files to 3 (styles, config, site-grid)
-run stylelint on scss files
-re-add gitignore for .css
+x combine css files to 3 (styles, config, site-grid)
+x run stylelint on scss files
+x re-add gitignore for .css
 finish readme
 responsive css missing for grid
 

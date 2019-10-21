@@ -1,3 +1,11 @@
+/* SCSS for page appearance */
+/* SCSS variables for page */
+/* SCSS grid for page */
+/* SCSS variables for page */
+.grid-container {
+  width: 100%; }
+
+/* SCSS variables for page */
 * {
   padding: 0;
   margin: 0; }
@@ -18,14 +26,280 @@ main {
   max-width: 75em;
   margin: 0 auto; }
 
+.button {
+  width: 15rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 1rem;
+  color: #000;
+  text-align: center;
+  background-color: #00b7ff;
+  border-radius: 0.3rem;
+  align-self: flex-start; }
+  .button:hover {
+    color: #fff;
+    background-color: #ff5000; }
+
+.cart {
+  display: flex;
+  padding: 0.625em;
+  align-items: center;
+  justify-content: center; }
+  .cart_img {
+    max-width: 100%; }
+  .cart_form {
+    flex-wrap: wrap; }
+
+.footer {
+  width: 100%;
+  background-color: #00b7ff; }
+  .footer_container {
+    max-width: 75em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    margin: 0 auto; }
+    @media (max-width: 75em -1) {
+      .footer_container {
+        padding-right: 1.25em;
+        padding-left: 1.25em; } }
+  .footer_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.625em;
+    margin-left: -0.625em;
+    margin-bottom: 2.5em;
+    flex-wrap: wrap; }
+  .footer_col {
+    width: 100%;
+    margin-bottom: 1.25em; }
+    @media (min-width: 900px) {
+      .footer_col {
+        width: 25%;
+        margin-bottom: 0; } }
+  .footer_title {
+    margin-bottom: 1.25em; }
+  .footer_list {
+    list-style: none; }
+  .footer_item {
+    margin-bottom: 0.625em; }
+  .footer_link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 200ms ease-in-out; }
+    .footer_link:hover {
+      color: #000; }
+  .footer_copyright {
+    width: 100%;
+    max-width: 75em;
+    font-size: 0.875rem;
+    text-align: center; }
+
+.grid {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center; }
+  .grid_container {
+    max-width: 75em;
+    padding: 1.25em; }
+  .grid_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.625em;
+    margin-left: -0.625em;
+    padding: 0.625em;
+    flex-wrap: wrap; }
+  .grid_col-4 {
+    width: 33.33333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.625em; }
+  .grid_col-6 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.625em; }
+  .grid_col-8 {
+    width: 66.66667%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.625em; }
+  .grid_content {
+    display: wrap;
+    padding: 0.625em; }
+  .grid_pic {
+    max-width: 100%; }
+
+.header {
+  margin-bottom: 2.5em;
+  background-color: #ff5000; }
+  .header_content {
+    display: flex;
+    max-width: 75em;
+    margin: 0 auto;
+    flex-direction: column; }
+  .header_title {
+    margin-bottom: 1.25em;
+    font-family: "Oswald", verdana, serif;
+    font-size: 3.75rem;
+    font-weight: 600;
+    text-align: center; }
+
+.header_price {
+  margin-top: 2rem;
+  font-family: "Oswald", verdana, serif;
+  font-size: 2rem; }
+
+.heading2 {
+  font-family: "Oswald", verdana, serif;
+  font-size: 2rem; }
+
+.main_text {
+  margin-top: 2rem;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 1.3125rem; }
+
+.nav {
+  margin-bottom: 1.25em; }
+  .nav_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.625em;
+    margin-left: -0.625em;
+    flex-wrap: wrap; }
+  .nav_list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.25em;
+    list-style: none; }
+    @media (min-width: 800px) {
+      .nav_list {
+        width: 50%;
+        margin-bottom: 0; } }
+  .nav_item {
+    display: flex;
+    margin-right: 0.625em;
+    margin-left: 0.625em;
+    font-size: 1rem; }
+  .nav_link {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: color 200ms ease-in-out; }
+    .nav_link:hover {
+      color: #fffcf2; }
+  .nav_item-active .nav_link {
+    text-decoration: underline; }
+  .nav_cart {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    @media (min-width: 800px) {
+      .nav_cart {
+        width: 16.66667%;
+        justify-content: flex-end; } }
+  .nav_button {
+    padding-right: 1.25em;
+    padding-left: 30px;
+    color: #000;
+    text-decoration: none;
+    background-image: url("img/cart.svg");
+    background-repeat: no-repeat;
+    transition: color 200ms ease-in-out; }
+    .nav_button:hover {
+      color: #ff5000; }
+    @media (min-width: 75em) {
+      .nav_button {
+        padding-right: 0; } }
+
 .rotate-card {
   width: 300px;
   height: 200px;
-  background: pink;
-  text-align: center;
-  font-size: 5em;
   padding-top: 100px;
-  margin: 200px 0 0 200px; }
+  margin: 200px 0 0 200px;
+  font-size: 5em;
+  text-align: center;
+  background: pink; }
 
 .rotate-card:hover {
   transform: translate3d(-80px, 80px, 10px) rotate3d(1, 2, -1, 192deg) scale(1.2); }
+
+.staff {
+  padding: 0.625em; }
+  .staff_card {
+    position: relative; }
+  .staff :hover {
+    transform: rotateY(180deg); }
+  .staff_pic {
+    max-width: 100%; }
+
+/* INPUT SCSS START */
+.form {
+  display: flex;
+  max-width: 75em;
+  margin: 0.625em;
+  font-size: 1.125rem;
+  flex-wrap: wrap; }
+  .form_button {
+    padding: 1em 6.25rem;
+    margin: 0.625em;
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    background-color: #00b7ff;
+    border-radius: 0.1875rem;
+    align-self: center; }
+    .form_button:hover {
+      color: #fff;
+      background-color: #ff5000; }
+
+input {
+  display: inline;
+  width: 12.5rem;
+  height: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 0.0625rem solid #000;
+  border-radius: 0.1875rem; }
+
+.month {
+  display: inline;
+  width: 3.75rem;
+  height: 2.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 0.0625rem solid #000;
+  border-radius: 0.1875rem; }
+
+.year {
+  display: inline;
+  width: 5rem;
+  height: 2.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 0.0625rem solid #000;
+  border-radius: 0.1875rem; }
+
+.course {
+  display: inline;
+  width: 9.4rem;
+  height: 2.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 0.0625 solid #000;
+  border-radius: 0.1875rem; }
+
+/* INPUT SCSS END */
