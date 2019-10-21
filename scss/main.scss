@@ -19,6 +19,7 @@
     &_row {
         @include row;
         padding: $gutter*0.5;
+        flex-wrap: wrap;
     }
     &_col-4{
         @include columns (4);
@@ -85,8 +86,12 @@
     font-size: 1.3125rem; /*21px*/
     font-family: Open Sans, helvetica;
     margin-top: 2rem;
+}
 
-
+.header_price{
+    font-size: 2rem;
+    font-family: Oswald, Verdana, serif;
+    margin-top: 2rem;
 }
 
 .staff{
@@ -98,14 +103,25 @@
         transform-style: preserve-3d;*/
     }
     :hover{
-        transform: rotateY(180deg)
+        transform: rotateY(180deg);
     }
     &_pic {
-    
     max-width: 100%;
     }
+}
+
+.cart {
+    padding: $gutter*0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &_img {
+    max-width: 100%;
     }
 
-.cart_img {
-    max-width: 100%;
+    $_form {
+        flex-wrap: wrap;
+    }
 }
