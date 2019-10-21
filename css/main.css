@@ -80,5 +80,7 @@
   .staff :hover {
     transform: rotateY(180deg); }
   .staff_pic {
-    max-width: 100%;
-    /*Skoða kóða þegar næst að keyra css skrár á undirsíður*/ }
+    max-width: 100%; }
+
+.cart_img {
+  max-width: 100%; }
