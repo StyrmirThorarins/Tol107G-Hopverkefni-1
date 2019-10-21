@@ -70,3 +70,10 @@
   /*21px*/
   font-family: Open Sans, helvetica;
   margin-top: 2rem; }
+
+.staff_pic {
+  padding: 0.625em;
+  /*Skoða kóða þegar næst að keyra css skrár á undirsíður*/ }
+  .staff_pic :hover {
+    background-image: none;
+    background-color: #ffffff; }

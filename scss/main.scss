@@ -88,3 +88,13 @@
 
 
 }
+
+.staff_pic {
+    padding: $gutter*0.5;
+
+    /*Skoða kóða þegar næst að keyra css skrár á undirsíður*/
+    :hover {
+        background-image: none;
+        background-color: $color-5;
+    }
+}
