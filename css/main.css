@@ -71,9 +71,14 @@
   font-family: Open Sans, helvetica;
   margin-top: 2rem; }
 
-.staff_pic {
-  padding: 0.625em;
-  /*Skoða kóða þegar næst að keyra css skrár á undirsíður*/ }
-  .staff_pic :hover {
-    background-image: none;
-    background-color: #ffffff; }
+.staff {
+  padding: 0.625em; }
+  .staff_card {
+    position: relative;
+    /*transition: transform 0.2s linear;
+        transform-style: preserve-3d;*/ }
+  .staff :hover {
+    transform: rotateY(180deg); }
+  .staff_pic {
+    max-width: 100%;
+    /*Skoða kóða þegar næst að keyra css skrár á undirsíður*/ }
