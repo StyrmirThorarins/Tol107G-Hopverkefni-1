@@ -1,18 +1,24 @@
-button {
-	background-color: $color-4;
-	margin: 1rem;
-	border: none;
-	color: $color_1;
-	padding: 1em 6.25rem;
-	text-align: center;
-	font-size: 1rem;
-	border-radius: 0.1875rem;
-	align-self: center;
-}
 .form {
 	max-width: 25rem;
 	margin: 1rem;
 	font-size: 1.125rem;
+
+	&_button {
+		background-color: $color-4;
+		margin: 1rem;
+		border: none;
+		color: $color_1;
+		padding: 1em 6.25rem;
+		text-align: center;
+		font-size: 1rem;
+		border-radius: 0.1875rem;
+		align-self: center;
+
+		&:hover {
+			background-color: $color-3;
+			color: $color-5;
+		}
+	}
 }
 input {
 	display: inline;
