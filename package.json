@@ -21,7 +21,8 @@
     "lint-s": "stylelint scss/styles.scss --syntax scss",
 
     "browser-sync": "browser-sync start --server --files index.html styles.css",    
-    "dev": "npm-run-all --parallel scss browser-sync"
+    "dev": "npm-run-all --parallel scss browser-sync",
+    "start": "npm-run-all --parallel browser-sync"
   },
   "repository": {
     "type": "git",

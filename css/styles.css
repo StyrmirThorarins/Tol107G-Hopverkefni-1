@@ -50,6 +50,20 @@ main {
     max-width: 100%; }
   .cart_form {
     flex-wrap: wrap; }
+  .cart_button {
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    background-color: #00b7ff;
+    border-radius: 0.3rem;
+    align-self: flex-start; }
+  .cart_price {
+    font-family: "Oswald", verdana, serif;
+    font-size: 1.125rem; }
 
 .footer {
   width: 100%;
@@ -201,7 +215,7 @@ main {
     transition: color 200ms ease-in-out; }
     .nav_link:hover {
       color: #fffcf2; }
-  .nav_item-active .nav_link {
+  .nav_item--active .nav_link {
     text-decoration: underline; }
   .nav_cart {
     width: 100%;
@@ -220,12 +234,13 @@ main {
     background-repeat: no-repeat;
     transition: color 200ms ease-in-out; }
     .nav_button:hover {
-      color: #ffffff; }
+      color: #fff; }
     @media (min-width: 75em) {
       .nav_button {
         padding-right: 0; } }
 
 .rotate-card {
+  border: 2px solid red;
   width: 300px;
   height: 200px;
   padding-top: 100px;
@@ -241,8 +256,6 @@ main {
   padding: 0.625em; }
   .staff_card {
     position: relative; }
-  .staff :hover {
-    transform: 200ms ease-in-out; }
   .staff_pic {
     max-width: 100%; }
 
@@ -265,6 +278,8 @@ main {
     .form_button:hover {
       color: #fff;
       background-color: #ff5000; }
+    .form_button_cart {
+      flex-wrap: wrap; }
 
 input {
   width: 12.5rem;

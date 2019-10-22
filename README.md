@@ -1,23 +1,39 @@
 # Tol107G-Hopverkefni-1
 
-## Lýsing á verkefni
+# Project Details / Lýsing á verkefni
 
-`README.md` skrá skal vera í rót verkefnis og innihalda:
 
-* Upplýsingar um hvernig keyra skuli verkefnið
+## How To Run
+1) Install package needed node modules. Run 'npm init' to download neccesary packages. This refers to the package-lock.json file in the root.
+
+2) Generate css
+
+3) Start the website.
+* run 'npm run start' in the command line. This starts the website using a local host.
+
 - run from project root in console, calling scrip from package.json: npm run dev
 - created non-dev script to run the project
 
-* Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CSS er skipulagt og fleira sem á við
-- file tree description
-- technologies used
-- scss organization breakdown
+## Project Overview
+### File Tree Description
+* / , contains the index page, package.json, readme, and other configuration files.
+* /css, contains scss files converted to css. These are the actual stylesheet that the website relies on.
+* /img, contains all the images in the project.
+* /pages, contains the html files for the 4 sub-pages of the project.
+* /scss, contains all the scss configuration files.
+### Technologies Used
+Htlm, .SCSS (translated into .CSS befor running), node package manager for command line scripts, scripts written in package.json in the root.
+### SCSS Organization Breakdown
+All SCSS files are placed in the '/scss' folder. 
+* style.scss, is the main stylesheet for the whole website.
+* site-grid.scss, is the stylesheet containing the scss for the grid used for the pages layout.
+* config.scss, contains variables that are accessed throughout the scss.
 
-* Upplýsingar um alla sem unnu verkefnið
-Hópur 33		
-Meðlimur 1	Styrmir Þórarinsson	sth315@hi.is
-Meðlimur 2	Ólöf Svafarsdóttir	ols32@hi.is
-Meðlimur 3	Hrafnhildur Hafsteinsdóttir	hlh11@hi.is
+## Project Members / Upplýsingar um alla sem unnu verkefnið
+### Group / Hópur 33		
+Member / Meðlimur 1	Styrmir Þórarinsson	sth315@hi.is
+Member / Meðlimur 2	Ólöf Svafarsdóttir	ols32@hi.is
+Member / Meðlimur 3	Hrafnhildur Hafsteinsdóttir	hlh11@hi.is
 
 
 
