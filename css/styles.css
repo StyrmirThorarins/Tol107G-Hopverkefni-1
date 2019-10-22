@@ -2,9 +2,6 @@
 /* SCSS variables for page */
 /* SCSS grid for page */
 /* SCSS variables for page */
-.grid_container {
-  width: 100%; }
-
 /* SCSS variables for page */
 * {
   padding: 0;
@@ -25,6 +22,49 @@ main {
   /* stylelint-disable-line */
   max-width: 75em;
   margin: 0 auto; }
+
+.grid {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center; }
+  .grid_container {
+    max-width: 75em;
+    padding: 1.25em; }
+  .grid_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.625em;
+    margin-left: -0.625em;
+    padding: 0.625em;
+    flex-wrap: wrap; }
+  .grid_col-4 {
+    width: 33.33333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.625em; }
+  .grid_col-6 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.625em; }
+  .grid_col-8 {
+    width: 66.66667%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.625em; }
+  .grid_content {
+    display: wrap;
+    padding: 0.625em; }
+  .grid_pic {
+    max-width: 100%; }
 
 .button {
   width: 15rem;
@@ -58,7 +98,6 @@ main {
     font-size: 1rem;
     color: #000;
     text-align: center;
-    background-color: #00b7ff;
     border-radius: 0.3rem;
     align-self: flex-start; }
   .cart_price {
@@ -108,49 +147,6 @@ main {
     max-width: 75em;
     font-size: 0.875rem;
     text-align: center; }
-
-.grid {
-  display: flex;
-  width: 100%;
-  background-color: #fff;
-  align-items: center;
-  justify-content: center; }
-  .grid_container {
-    max-width: 75em;
-    padding: 1.25em; }
-  .grid_row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -0.625em;
-    margin-left: -0.625em;
-    padding: 0.625em;
-    flex-wrap: wrap; }
-  .grid_col-4 {
-    width: 33.33333%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0.625em; }
-  .grid_col-6 {
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0.625em; }
-  .grid_col-8 {
-    width: 66.66667%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0.625em; }
-  .grid_content {
-    display: wrap;
-    padding: 0.625em; }
-  .grid_pic {
-    max-width: 100%; }
 
 .header {
   margin-bottom: 2.5em;
