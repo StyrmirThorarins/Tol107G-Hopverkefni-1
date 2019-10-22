@@ -102,7 +102,8 @@ main {
     align-self: flex-start; }
   .cart_price {
     font-family: "Oswald", verdana, serif;
-    font-size: 1.125rem; }
+    font-size: 1.3rem;
+    font-weight: bold; }
 
 .footer {
   width: 100%;
@@ -274,16 +275,16 @@ main {
     .form_button:hover {
       color: #fff;
       background-color: #ff5000; }
-    .form_button_cart {
-      flex-wrap: wrap; }
-
-input {
-  width: 12.5rem;
-  height: 2rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  border: 0.0625rem solid #000;
-  border-radius: 0.1875rem; }
+  .form_label {
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+    font-size: 1.125rem; }
+  .form_input {
+    width: 12.5rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0.0625rem solid #000;
+    border-radius: 0.1875rem; }
 
 .month {
   width: 3.75rem;
