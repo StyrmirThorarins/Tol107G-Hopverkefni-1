@@ -2,7 +2,6 @@
 
 @import "scss/config.scss";
 @import "scss/site-grid.scss";
-
 @import "scss/config.scss";
 
 * {
@@ -279,7 +278,7 @@ main { /* stylelint-disable-line */
     }
   }
 
-  &_item-active &_link {
+  &_item--active &_link {
     text-decoration: underline;
   }
 
