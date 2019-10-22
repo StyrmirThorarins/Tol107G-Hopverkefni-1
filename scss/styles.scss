@@ -38,7 +38,6 @@ main { /* stylelint-disable-line */
   color: $color-1;
   text-align: center;
   background-color: $color-4;
-  //border: none;
   border-radius: 0.3rem;
   align-self: flex-start;
 
@@ -60,6 +59,24 @@ main { /* stylelint-disable-line */
 
   &_form {
     flex-wrap: wrap;
+  }
+
+  &_button{
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    font-family: $font-main;
+    font-size: 1rem;
+    color: $color-1;
+    text-align: center;
+    background-color: $color-4;
+    border-radius: 0.3rem;
+    align-self: flex-start;
+  }
+
+  &_price{
+    font-family: $font-heading;
+    font-size: 1.125rem;
   }
 }
 
@@ -317,18 +334,13 @@ main { /* stylelint-disable-line */
 
   &_card {
     position: relative;
-    // transition: transform 0.2s linear;
-    // transform-style: preserve-3d;
   }
-
-  :hover {
-    transform: rotateY(180deg);
   }
 
   &_pic {
     max-width: 100%;
   }
-}
+
 
 /* INPUT SCSS START */
 
@@ -346,7 +358,6 @@ main { /* stylelint-disable-line */
     color: $color_1;
     text-align: center;
     background-color: $color-4;
-    //border: none;
     border-radius: 0.1875rem;
     align-self: center;
 
@@ -354,11 +365,13 @@ main { /* stylelint-disable-line */
       color: $color-5;
       background-color: $color-3;
     }
+  &_cart{
+    flex-wrap: wrap;
+  }
   }
 }
 
 input {
-  display: inline;
   width: 12.5rem;
   height: 2rem;
   padding: 0.5rem;
@@ -368,7 +381,6 @@ input {
 }
 
 .month {
-  display: inline;
   width: 3.75rem;
   height: 2.25rem;
   padding: 0.5rem;
@@ -378,7 +390,6 @@ input {
 }
 
 .year {
-  display: inline;
   width: 5rem;
   height: 2.25rem;
   padding: 0.5rem;
@@ -388,7 +399,6 @@ input {
 }
 
 .course {
-  display: inline;
   width: 9.4rem;
   height: 2.25rem;
   padding: 0.5rem;

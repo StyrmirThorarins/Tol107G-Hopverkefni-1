@@ -242,7 +242,7 @@ main {
   .staff_card {
     position: relative; }
   .staff :hover {
-    transform: rotateY(180deg); }
+    transform: 200ms ease-in-out; }
   .staff_pic {
     max-width: 100%; }
 
@@ -267,7 +267,6 @@ main {
       background-color: #ff5000; }
 
 input {
-  display: inline;
   width: 12.5rem;
   height: 2rem;
   padding: 0.5rem;
@@ -276,7 +275,6 @@ input {
   border-radius: 0.1875rem; }
 
 .month {
-  display: inline;
   width: 3.75rem;
   height: 2.25rem;
   padding: 0.5rem;
@@ -285,7 +283,6 @@ input {
   border-radius: 0.1875rem; }
 
 .year {
-  display: inline;
   width: 5rem;
   height: 2.25rem;
   padding: 0.5rem;
@@ -294,7 +291,6 @@ input {
   border-radius: 0.1875rem; }
 
 .course {
-  display: inline;
   width: 9.4rem;
   height: 2.25rem;
   padding: 0.5rem;
