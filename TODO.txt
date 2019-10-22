@@ -2,18 +2,20 @@ Styrmir
 -----------
 x set up project environment and commands (sass, lint, local server etc) - 2 day
 x look up and add fonts to head
-finish animation
+60% finish animation
 x combine css files to 3 (styles, config, site-grid)
 x run stylelint on scss files
 x re-add gitignore for .css
-finish readme
+80% finish readme
 x responsive css missing for grid
 
 Hrafnhildur
 -----------
 x header and footer
-BEM'ify all css
-vantar mynd fyrir innkaupakorfu
+x vantar mynd fyrir innkaupakorfu
+90% BEM'ify all css
+make sure pages are all contained within one main grid container
+
 responsive page testing and css fixes
 meaningful html tags where applicable
 
@@ -22,5 +24,7 @@ Olof
 finish styling for forms
 basket page not finished
 basket buttons not correct
+combine .grid from stylesheet into site-grid
+
 responsive page testing and css fixes
 meaningful html tags where applicable
