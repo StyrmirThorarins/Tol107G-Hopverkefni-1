@@ -120,12 +120,4 @@
     @include columns(12);
   }
 
-  &-sm {
-    @media (max-width: 799px) {
-      &-12 {
-        @include columns(12);
-      }
-    }
-  }
-
 }
