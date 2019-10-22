@@ -305,7 +305,7 @@ main { /* stylelint-disable-line */
     transition: color $transition;
 
     &:hover {
-      color: $color-3;
+      color: $color-5;
     }
 
     @media (min-width: $max-width) {
