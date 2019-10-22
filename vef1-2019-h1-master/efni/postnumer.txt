@@ -1,182 +1,182 @@
--Velja póstnúmer-</option>
-101 Reykjavík</option>
-103 Reykjavík</option>
-104 Reykjavík</option>
-105 Reykjavík</option>
-107 Reykjavík</option>
-108 Reykjavík</option>
-109 Reykjavík</option>
-110 Reykjavík</option>
-111 Reykjavík</option>
-112 Reykjavík</option>
-113 Reykjavík</option>
-116 Reykjavík</option>
-121 Reykjavík</option>
-123 Reykjavík</option>
-124 Reykjavík</option>
-125 Reykjavík</option>
-127 Reykjavík</option>
-128 Reykjavík</option>
-129 Reykjavík</option>
-130 Reykjavík</option>
-132 Reykjavík</option>
-162 Reykjavík - Dreifbýli</option>
-170 Seltjarnarnesi</option>
-172 Seltjarnarnesi</option>
-190 Vogum</option>
-191 Vogum</option>
-200 Kópavogi</option>
-201 Kópavogi</option>
-202 Kópavogi</option>
-203 Kópavogi</option>
-210 Garðabæ</option>
-212 Garðabæ</option>
-220 Hafnarfirði</option>
-221 Hafnarfirði</option>
-222 Hafnarfirði</option>
-225 Garðabær</option>
-230 Reykjanesbæ</option>
-232 Reykjanesbæ</option>
-233 Reykjanesbæ</option>
-235 Keflavíkurflugvöllur</option>
-240 Grindavík</option>
-241 Grindavík</option>
-245 Sandgerði</option>
-246 Sandgerði</option>
-250 Garði</option>
-251 Garði</option>
-260 Reykjanesbæ</option>
-262 Reykjanesbæ</option>
-270 Mosfellsbæ</option>
-271 Mosfellsbæ</option>
-276 Mosfellsbæ</option>
-300 Akranesi</option>
-301 Akranesi</option>
-302 Akranesi</option>
-310 Borgarnesi</option>
-311 Borgarnesi</option>
-320 Reykholt í Borgarfirði</option>
-340 Stykkishólmi</option>
-341 Stykkishólmi</option>
-345 Flatey á Breiðafirði</option>
-350 Grundarfirði</option>
-351 Grundarfirði</option>
-355 Ólafsvík</option>
-356 Snæfellsbæ</option>
-360 Hellissandi</option>
-370 Búðardal</option>
-371 Búðardal</option>
-380 Reykhólahreppi</option>
-381 Reykhólahreppi</option>
-400 Ísafirði</option>
-401 Ísafirði</option>
-410 Hnífsdal</option>
-415 Bolungarvík</option>
-416 Bolungarvík</option>
-420 Súðavík</option>
-421 Súðavík</option>
-425 Flateyri</option>
-426 Flateyri</option>
-430 Suðureyri</option>
-431 Suðureyri</option>
-450 Patreksfirði</option>
-451 Patreksfirði</option>
-460 Tálknafirði</option>
-461 Tálknafirði</option>
-465 Bíldudal</option>
-466 Bíldudal</option>
-470 Þingeyri</option>
-471 Þingeyri</option>
-500 Stað</option>
-510 Hólmavík</option>
-511 Hólmavík</option>
-512 Hólmavík</option>
-520 Drangsnesi</option>
-524 Árneshreppi</option>
-530 Hvammstanga</option>
-531 Hvammstanga</option>
-540 Blönduósi</option>
-541 Blönduósi</option>
-545 Skagaströnd</option>
-546 Skagaströnd</option>
-550 Sauðárkróki</option>
-551 Sauðárkróki</option>
-560 Varmahlíð</option>
-561 Varmahlíð</option>
-565 Hofsós</option>
-566 Hofsós</option>
-570 Fljótum</option>
-580 Siglufirði</option>
-581 Siglufirði</option>
-600 Akureyri</option>
-601 Akureyri</option>
-602 Akureyri</option>
-603 Akureyri</option>
-610 Grenivík</option>
-611 Grímsey</option>
-616 Grenivík</option>
-620 Dalvík</option>
-621 Dalvík</option>
-625 Ólafsfirði</option>
-626 Ólafsfirði</option>
-630 Hrísey</option>
-640 Húsavík</option>
-641 Húsavík</option>
-645 Fosshólli</option>
-650 Laugum</option>
-660 Mývatni</option>
-670 Kópaskeri</option>
-671 Kópaskeri</option>
-675 Raufarhöfn</option>
-676 Raufarhöfn</option>
-680 Þórshöfn</option>
-681 Þórshöfn</option>
-685 Bakkafirði</option>
-686 Bakkafirði</option>
-690 Vopnafirði</option>
-691 Vopnafirði</option>
-700 Egilsstöðum</option>
-701 Egilsstöðum</option>
-710 Seyðisfirði</option>
-711 Seyðisfirði</option>
-715 Mjóafirði</option>
-720 Borgarfirði (eystri)</option>
-721 Borgarfirði (eystri)</option>
-730 Reyðarfirði</option>
-731 Reyðarfirði</option>
-735 Eskifirði</option>
-736 Eskifirði</option>
-740 Neskaupstað</option>
-741 Neskaupsstað</option>
-750 Fáskrúðsfirði</option>
-751 Fáskrúðsfirði</option>
-755 Stöðvarfirði</option>
-756 Stöðvarfirði</option>
-760 Breiðdalsvík</option>
-761 Breiðdalsvík</option>
-765 Djúpavogi</option>
-766 Djúpavogi</option>
-780 Höfn í Hornafirði</option>
-781 Höfn í Hornafirði</option>
-785 Öræfum</option>
-800 Selfossi</option>
-801 Selfossi</option>
-802 Selfossi</option>
-810 Hveragerði</option>
-815 Þorlákshöfn</option>
-816 Ölfus</option>
-820 Eyrarbakka</option>
-825 Stokkseyri</option>
-840 Laugarvatni</option>
-845 Flúðum</option>
-846 Flúðum</option>
-850 Hellu</option>
-851 Hellu</option>
-860 Hvolsvelli</option>
-861 Hvolsvelli</option>
-870 Vík</option>
-871 Vík</option>
-880 Kirkjubæjarklaustri</option>
-881 Kirkjubæjarklaustri</option>
-900 Vestmannaeyjum</option>
-902 Vestmannaeyjum</option>
+<option value ="-Velja póstnúmer-"></option>
+<option value ="101 Reykjavík"></option>
+<option value ="103 Reykjavík"></option>
+<option value ="104 Reykjavík"></option>
+<option value ="105 Reykjavík"></option>
+<option value ="107 Reykjavík"></option>
+<option value ="108 Reykjavík"></option>
+<option value ="109 Reykjavík"></option>
+<option value ="110 Reykjavík"></option>
+<option value ="111 Reykjavík"></option>
+<option value ="112 Reykjavík"></option>
+<option value ="113 Reykjavík"></option>
+<option value ="116 Reykjavík"></option>
+<option value ="121 Reykjavík"></option>
+<option value ="123 Reykjavík"></option>
+<option value ="124 Reykjavík"></option>
+<option value ="125 Reykjavík"></option>
+<option value ="127 Reykjavík"></option>
+<option value ="128 Reykjavík"></option>
+<option value ="129 Reykjavík"></option>
+<option value ="130 Reykjavík"></option>
+<option value ="132 Reykjavík"></option>
+<option value ="162 Reykjavík - Dreifbýli"></option>
+<option value ="170 Seltjarnarnesi"></option>
+<option value ="172 Seltjarnarnesi"></option>
+<option value ="190 Vogum"></option>
+<option value ="191 Vogum"></option>
+<option value ="200 Kópavogi"></option>
+<option value ="201 Kópavogi"></option>
+<option value ="202 Kópavogi"></option>
+<option value ="203 Kópavogi"></option>
+<option value ="210 Garðabæ"></option>
+<option value ="212 Garðabæ"></option>
+<option value ="220 Hafnarfirði"></option>
+<option value ="221 Hafnarfirði"></option>
+<option value ="222 Hafnarfirði"></option>
+<option value ="225 Garðabær"></option>
+<option value ="230 Reykjanesbæ"></option>
+<option value ="232 Reykjanesbæ"></option>
+<option value ="233 Reykjanesbæ"></option>
+<option value ="235 Keflavíkurflugvöllur"></option>
+<option value ="240 Grindavík"></option>
+<option value ="241 Grindavík"></option>
+<option value ="245 Sandgerði"></option>
+<option value ="246 Sandgerði"></option>
+<option value ="250 Garði"></option>
+<option value ="251 Garði"></option>
+<option value ="260 Reykjanesbæ"></option>
+<option value ="262 Reykjanesbæ"></option>
+<option value ="270 Mosfellsbæ"></option>
+<option value ="271 Mosfellsbæ"></option>
+<option value ="276 Mosfellsbæ"></option>
+<option value ="300 Akranesi"></option>
+<option value ="301 Akranesi"></option>
+<option value ="302 Akranesi"></option>
+<option value ="310 Borgarnesi"></option>
+<option value ="311 Borgarnesi"></option>
+<option value ="320 Reykholt í Borgarfirði"></option>
+<option value ="340 Stykkishólmi"></option>
+<option value ="341 Stykkishólmi"></option>
+<option value ="345 Flatey á Breiðafirði"></option>
+<option value ="350 Grundarfirði"></option>
+<option value ="351 Grundarfirði"></option>
+<option value ="355 Ólafsvík"></option>
+<option value ="356 Snæfellsbæ"></option>
+<option value ="360 Hellissandi"></option>
+<option value ="370 Búðardal"></option>
+<option value ="371 Búðardal"></option>
+<option value ="380 Reykhólahreppi"></option>
+<option value ="381 Reykhólahreppi"></option>
+<option value ="400 Ísafirði"></option>
+<option value ="401 Ísafirði"></option>
+<option value ="410 Hnífsdal"></option>
+<option value ="415 Bolungarvík"></option>
+<option value ="416 Bolungarvík"></option>
+<option value ="420 Súðavík"></option>
+<option value ="421 Súðavík"></option>
+<option value ="425 Flateyri"></option>
+<option value ="426 Flateyri"></option>
+<option value ="430 Suðureyri"></option>
+<option value ="431 Suðureyri"></option>
+<option value ="450 Patreksfirði"></option>
+<option value ="451 Patreksfirði"></option>
+<option value ="460 Tálknafirði"></option>
+<option value ="461 Tálknafirði"></option>
+<option value ="465 Bíldudal"></option>
+<option value ="466 Bíldudal"></option>
+<option value ="470 Þingeyri"></option>
+<option value ="471 Þingeyri"></option>
+<option value ="500 Stað"></option>
+<option value ="510 Hólmavík"></option>
+<option value ="511 Hólmavík"></option>
+<option value ="512 Hólmavík"></option>
+<option value ="520 Drangsnesi"></option>
+<option value ="524 Árneshreppi"></option>
+<option value ="530 Hvammstanga"></option>
+<option value ="531 Hvammstanga"></option>
+<option value ="540 Blönduósi"></option>
+<option value ="541 Blönduósi"></option>
+<option value ="545 Skagaströnd"></option>
+<option value ="546 Skagaströnd"></option>
+<option value ="550 Sauðárkróki"></option>
+<option value ="551 Sauðárkróki"></option>
+<option value ="560 Varmahlíð"></option>
+<option value ="561 Varmahlíð"></option>
+<option value ="565 Hofsós"></option>
+<option value ="566 Hofsós"></option>
+<option value ="570 Fljótum"></option>
+<option value ="580 Siglufirði"></option>
+<option value ="581 Siglufirði"></option>
+<option value ="600 Akureyri"></option>
+<option value ="601 Akureyri"></option>
+<option value ="602 Akureyri"></option>
+<option value ="603 Akureyri"></option>
+<option value ="610 Grenivík"></option>
+<option value ="611 Grímsey"></option>
+<option value ="616 Grenivík"></option>
+<option value ="620 Dalvík"></option>
+<option value ="621 Dalvík"></option>
+<option value ="625 Ólafsfirði"></option>
+<option value ="626 Ólafsfirði"></option>
+<option value ="630 Hrísey"></option>
+<option value ="640 Húsavík"></option>
+<option value ="641 Húsavík"></option>
+<option value ="645 Fosshólli"></option>
+<option value ="650 Laugum"></option>
+<option value ="660 Mývatni"></option>
+<option value ="670 Kópaskeri"></option>
+<option value ="671 Kópaskeri"></option>
+<option value ="675 Raufarhöfn"></option>
+<option value ="676 Raufarhöfn"></option>
+<option value ="680 Þórshöfn"></option>
+<option value ="681 Þórshöfn"></option>
+<option value ="685 Bakkafirði"></option>
+<option value ="686 Bakkafirði"></option>
+<option value ="690 Vopnafirði"></option>
+<option value ="691 Vopnafirði"></option>
+<option value ="700 Egilsstöðum"></option>
+<option value ="701 Egilsstöðum"></option>
+<option value ="710 Seyðisfirði"></option>
+<option value ="711 Seyðisfirði"></option>
+<option value ="715 Mjóafirði"></option>
+<option value ="720 Borgarfirði (eystri)"></option>
+<option value ="721 Borgarfirði (eystri)"></option>
+<option value ="730 Reyðarfirði"></option>
+<option value ="731 Reyðarfirði"></option>
+<option value ="735 Eskifirði"></option>
+<option value ="736 Eskifirði"></option>
+<option value ="740 Neskaupstað"></option>
+<option value ="741 Neskaupsstað"></option>
+<option value ="750 Fáskrúðsfirði"></option>
+<option value ="751 Fáskrúðsfirði"></option>
+<option value ="755 Stöðvarfirði"></option>
+<option value ="756 Stöðvarfirði"></option>
+<option value ="760 Breiðdalsvík"></option>
+<option value ="761 Breiðdalsvík"></option>
+<option value ="765 Djúpavogi"></option>
+<option value ="766 Djúpavogi"></option>
+<option value ="780 Höfn í Hornafirði"></option>
+<option value ="781 Höfn í Hornafirði"></option>
+<option value ="785 Öræfum"></option>
+<option value ="800 Selfossi"></option>
+<option value ="801 Selfossi"></option>
+<option value ="802 Selfossi"></option>
+<option value ="810 Hveragerði"></option>
+<option value ="815 Þorlákshöfn"></option>
+<option value ="816 Ölfus"></option>
+<option value ="820 Eyrarbakka"></option>
+<option value ="825 Stokkseyri"></option>
+<option value ="840 Laugarvatni"></option>
+<option value ="845 Flúðum"></option>
+<option value ="846 Flúðum"></option>
+<option value ="850 Hellu"></option>
+<option value ="851 Hellu"></option>
+<option value ="860 Hvolsvelli"></option>
+<option value ="861 Hvolsvelli"></option>
+<option value ="870 Vík"></option>
+<option value ="871 Vík"></option>
+<option value ="880 Kirkjubæjarklaustri"></option>
+<option value ="881 Kirkjubæjarklaustri"></option>
+<option value ="900 Vestmannaeyjum"></option>
+<option value ="902 Vestmannaeyjum"></option>

@@ -220,7 +220,7 @@ main {
     background-repeat: no-repeat;
     transition: color 200ms ease-in-out; }
     .nav_button:hover {
-      color: #ffff; }
+      color: #ffffff; }
     @media (min-width: 75em) {
       .nav_button {
         padding-right: 0; } }
