@@ -1,0 +1,40 @@
+/* SCSS variables for page */
+.card_container {
+  display: inline-block;
+  padding: 0 12px;
+  margin: 0 auto;
+  text-align: center; }
+
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  transform-style: preserve-3d;
+  padding: 0.625em; }
+  .card_pic {
+    max-width: 100%; }
+  .card_front {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden; }
+  .card_back {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background: #fff;
+    backface-visibility: hidden;
+    transform: rotateY(180deg); }
+
+.card:hover {
+  transform: rotateY(180deg); }
+
+.card_container:hover {
+  transform: rotateY(180deg); }

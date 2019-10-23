@@ -1,0 +1,53 @@
+// SCSS to handle rotation of staff cards on hover
+
+@import "scss/config.scss";
+
+.card_container {
+  display: inline-block;
+  padding: 0 12px;
+  margin: 0 auto;  
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: $transition;
+  transform-style: preserve-3d;
+  padding: $gutter*0.5;
+
+  &_pic {
+    max-width: 100%;
+  }
+
+  &_front {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;  
+    backface-visibility: hidden;
+  }
+
+  &_back {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;  
+    color: $color-1;
+    background: $color-5;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);    
+  }
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card_container:hover {
+    transform: rotateY(180deg);
+}

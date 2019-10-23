@@ -2,7 +2,6 @@
 
 @import "scss/config.scss";
 @import "scss/site-grid.scss";
-@import "scss/config.scss";
 
 * {
   padding: 0;
@@ -371,33 +370,6 @@ main { /* stylelint-disable-line */
     @media (min-width: $max-width) {
       padding-right: 0;
     }
-  }
-}
-
-.rotate-card {
-  border: 2px solid red;
-  width: 300px;
-  height: 200px;
-  padding-top: 100px;
-  margin: 200px 0 0 200px;
-  font-size: 5em;
-  text-align: center;
-  background: pink;
-}
-
-.rotate-card:hover {
-  transform: translate3d(-80px, 80px, 10px) rotate3d(1, 2, -1, 192deg) scale(1.2);
-}
-
-.staff {
-  padding: $gutter*0.5;
-
-  &_card {
-    position: relative;
-  }
-
-  &_pic {
-    max-width: 100%;
   }
 }
 

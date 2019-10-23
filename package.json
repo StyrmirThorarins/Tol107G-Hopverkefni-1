@@ -16,9 +16,10 @@
   "scripts": {        
     "scss": "node-sass --watch scss -o css",
 
+    "lint-a": "stylelint scss/card-animation.scss --syntax scss",
     "lint-c": "stylelint scss/config.scss --syntax scss",
     "lint-g": "stylelint scss/site-grid.scss --syntax scss",
-    "lint-s": "stylelint scss/styles.scss --syntax scss",
+    "lint-s": "stylelint scss/styles.scss --syntax scss",    
 
     "browser-sync": "browser-sync start --server --files index.html styles.css",    
     "dev": "npm-run-all --parallel scss browser-sync",

@@ -6,7 +6,9 @@
 ## How To Run
 1) Install package needed node modules. Run 'npm init' to download neccesary packages. This refers to the package-lock.json file in the root.
 
-2) Generate css
+2) Generate css.
+* run 'npm run scss' then edit and save the relevant scss files to generate the .css files needed into the '/css' folder.
+* similarly running 'npm run dev' will also monitor changes to the scss files and generate css files into the '/css' folder.
 
 3) Start the website.
 * run 'npm run start' in the command line. This starts the website using a local host.
@@ -31,9 +33,9 @@ All SCSS files are placed in the '/scss' folder.
 
 ## Project Members / Upplýsingar um alla sem unnu verkefnið
 ### Group / Hópur 33		
-Member / Meðlimur 1	Styrmir Þórarinsson	sth315@hi.is
-Member / Meðlimur 2	Ólöf Svafarsdóttir	ols32@hi.is
-Member / Meðlimur 3	Hrafnhildur Hafsteinsdóttir	hlh11@hi.is
+* Member / Meðlimur 1	Styrmir Þórarinsson	sth315@hi.is
+* Member / Meðlimur 2	Ólöf Svafarsdóttir	ols32@hi.is
+* Member / Meðlimur 3	Hrafnhildur Hafsteinsdóttir	hlh11@hi.is
 
 
 
