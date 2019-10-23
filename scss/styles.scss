@@ -96,6 +96,7 @@ main { /* stylelint-disable-line */
   margin-top: 2rem;
   font-family: $font-main;
   font-size: 1rem;
+  border: none;
   color: $color-1;
   text-align: center;
   background-color: $color-4;
@@ -122,6 +123,24 @@ main { /* stylelint-disable-line */
     flex-wrap: wrap;
   }
 
+  &_button_add{
+    width: 9rem;
+    height: 2.5rem;
+    padding-right: 1rem;
+    font-family: $font-main;
+    font-size: 1rem;
+    color: $color-1;
+    background-image: url("../img/cart.svg");
+    background-repeat: no-repeat;
+    transition: color $transition;
+    text-align: right;
+    border: 0.05rem solid $color-1;
+    border-radius: 0.3rem;
+    align-self: flex-start;
+    &:hover{
+      background-color: $color-4;
+    }
+  }
   &_button_delete{
     width: 10rem;
     height: 2.5rem;
@@ -407,6 +426,10 @@ main { /* stylelint-disable-line */
       background-color: $color-3;
     }
   }
+
+  &_cart{
+    width:100%;
+  }
   &_label{
     font-family: $font-main;
     font-size: 1.125rem;
@@ -437,6 +460,15 @@ main { /* stylelint-disable-line */
         margin: 0.1rem;
         border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
+
+        &_prod{
+          width: 13rem;
+          height: 2.5rem;
+          padding: 0.5rem;
+          margin: 0.1rem;
+          border: 0.1rem solid $color-1;
+          border-radius: 0.2rem;
+        }
       }
 
       &_year{
@@ -447,6 +479,13 @@ main { /* stylelint-disable-line */
         border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
       }
+      &_course{
+        width: 22rem;
+        height: 2.5rem;
+        padding: 0.5rem;
+        border: 0.0625rem solid $color_1;
+        border-radius: 0.1875rem;
+      }
   }
 
   &_item{
@@ -454,6 +493,16 @@ main { /* stylelint-disable-line */
     justify-content: space-between;
     margin-top: 0.5rem;
     width: 90%;
+  }
+
+  &_prod{
+    width: 100%;
+    &_item{
+      width:100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.5rem;
+    }
   }
 }
 
