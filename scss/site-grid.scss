@@ -13,56 +13,177 @@
   width: ($col / 12 * 100) * 1%;
 }
 
+.grid {
+  display: flex;
+  width: 100%;
+  background-color: $color-5;
+  align-items: center;
+  justify-content: center;
+
+  &_container {
+    max-width: $max-width;
+    padding: $gutter;
+  }
+  &_row {
+    @include row;
+    padding: $gutter*0.5;
+    flex-wrap: wrap;
+
+    &_center{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &_content {
+    width: 100%;
+    display: wrap;
+    padding: $gutter*0.5;
+  }
+
+  &_pic {
+    max-width: 100%;
+  }
+
+  &_col-4 {
+    @include columns (4);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
+  }
+
+  &_col-6 {
+    @include columns (6);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
+  }
+
+  &_col-8 {
+    @include columns (8);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
+  }
+}
+
+
 @mixin col {
   padding-right: $gutter / 2;
   padding-left: $gutter / 2;
 
   &-1 {
     @include columns(1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-2 {
     @include columns(2);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-3 {
     @include columns(3);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-4 {
     @include columns(4);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-5 {
     @include columns(5);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-6 {
     @include columns(6);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-7 {
     @include columns(7);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-8 {
     @include columns(8);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-9 {
     @include columns(9);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-10 {
     @include columns(10);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-11 {
     @include columns(11);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
 
   &-12 {
     @include columns(12);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: $gutter*0.5;
   }
-
 }

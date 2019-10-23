@@ -3,26 +3,6 @@
 /* SCSS variables for page */
 /* SCSS grid for page */
 /* SCSS variables for page */
-* {
-  padding: 0;
-  margin: 0; }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
-
-html {
-  /* stylelint-disable-line */
-  box-sizing: border-box;
-  overflow-x: hidden;
-  font-size: 16px; }
-
-main {
-  /* stylelint-disable-line */
-  max-width: 75em;
-  margin: 0 auto; }
-
 .grid {
   display: flex;
   width: 100%;
@@ -39,11 +19,17 @@ main {
     margin-left: -0.625em;
     padding: 0.625em;
     flex-wrap: wrap; }
-    .grid_row--center {
+    .grid_row_center {
       display: flex;
       width: 100%;
       align-items: center;
       justify-content: center; }
+  .grid_content {
+    width: 100%;
+    display: wrap;
+    padding: 0.625em; }
+  .grid_pic {
+    max-width: 100%; }
   .grid_col-4 {
     width: 33.33333%;
     display: flex;
@@ -65,12 +51,26 @@ main {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 0.625em; }
-  .grid_content {
-    width: 100%;
-    display: wrap;
-    padding: 0.625em; }
-  .grid_pic {
-    max-width: 100%; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  /* stylelint-disable-line */
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 16px; }
+
+main {
+  /* stylelint-disable-line */
+  max-width: 75em;
+  margin: 0 auto; }
 
 .button {
   width: 15rem;
