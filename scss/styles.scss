@@ -126,9 +126,12 @@ main { /* stylelint-disable-line */
     background-repeat: no-repeat;
     transition: color $transition;
     text-align: right;
+    border: 0.1rem solid $color-1;
     border-radius: 0.3rem;
     align-self: flex-start;
-    
+    &:hover{
+      background-color: $color-4;
+    }
   }
 
   &_button_update{
@@ -143,8 +146,12 @@ main { /* stylelint-disable-line */
     background-repeat: no-repeat;
     transition: color $transition;
     text-align: right;
+    border: 0.1rem solid $color-1;
     border-radius: 0.3rem;
     align-self: flex-start;
+    &:hover{
+      background-color: $color-4;
+    }
   }
 
   &_price{
@@ -396,7 +403,7 @@ main { /* stylelint-disable-line */
   }
 
   &_input{
-      width: 20rem;
+      width: 18rem;
       height: 2.5rem;
       padding: 0.5rem;
       margin: 0.1rem;
@@ -429,6 +436,13 @@ main { /* stylelint-disable-line */
         border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
       }
+  }
+
+  &_item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    width: 100%;
   }
 }
 
