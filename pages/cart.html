@@ -51,9 +51,11 @@
             <p class="cart_price">49.900 kr</p>
               <div class="cart_form">
                 <label  class="form_label" for="cart_number">Fjöldi</label>
-                <input class="form_input" type="number" name="cart_number">
-                <button class="cart_button">Uppfæra</button>
-                <button class="cart_button">Eyða úr körfu</button>
+                <div class="form_item">
+                  <input class="form_input_nr" type="number" name="cart_number">
+                  <button class="cart_button_update">Uppfæra</button>
+                  <button class="cart_button_delete">Eyða úr körfu</button>
+                </div>
               </div>
             </div>
           </div>
@@ -71,9 +73,11 @@
             <p class="cart_price">4.900 kr</p>
             <div class="form_cart">
               <label class="form_label" for="number_cart">Fjöldi</label>
-              <input class="form_input" type="number" name="number_cart">
-              <button class="cart_button">Uppfæra</button>
-              <button class="cart_button">Eyða úr körfu</button>
+                <div class="form_item">
+                  <input class="form_input_nr" type="number" name="number_cart">
+                  <button class="cart_button_update">Uppfæra</button>
+                  <button class="cart_button_delete">Eyða úr körfu</button>
+                </div>
             </div>
           </div>
         </div>
@@ -91,10 +95,11 @@
             <input class="form_input" type="text" name="address">
           </div>
           <div class="form_item">
-            <label class="form_label" for="zip">Póstnúmer:</label>
+            <label class="form_label" for="course">Póstnúmer</label>
+            <select class="form_input" for="zip">
             <option value ="-Velja póstnúmer-"></option>
-            <option value ="101 Reykjavík"></option>
-            <option value ="103 Reykjavík"></option>
+            <option value ="101 Reykjavík">101 Reykjavík</option>
+            <option value ="103 Reykjavík">103 Reykjavík</option>
             <option value ="104 Reykjavík"></option>
             <option value ="105 Reykjavík"></option>
             <option value ="107 Reykjavík"></option>
@@ -274,6 +279,7 @@
             <option value ="881 Kirkjubæjarklaustri"></option>
             <option value ="900 Vestmannaeyjum"></option>
             <option value ="902 Vestmannaeyjum"></option>
+          </select>
           </div>
         </div>
       </div>
@@ -281,13 +287,17 @@
         <div class="grid_content">
           <h2 class="heading2">Greiðsluupplýsingar</h2>
           <div class="form_item">
-            <label for="cardholder">Korthafi:</label>
-            <input type="text" name="cardholder">
+              <label class="form_label" for="cardnr">Kortanúmer:</label>
+              <input class="form_input" type="text" name="cardnr">
+            </div>
+          <div class="form_item">
+            <label class="form_label" for="cardholder">Korthafi:</label>
+            <input class="form_input" type="text" name="cardholder">
           </div>
           <div class="form_item">
-            <label for="valid">Gildistími</label>
-            <label for="month">Mán</label>
-              <select class="month" name="month">
+            <label class="form_label" for="valid">Gildistími:</label>
+            <label class="form_label" for="month">Mán</label>
+              <select class="form_input_month" name="month">
                   <option value="jan">01</option>
                   <option value="feb">02</option>
                   <option value="mar">03</option>
@@ -301,8 +311,8 @@
                   <option value="nov">11</option>
                   <option value="des">12</option>
               </select>
-            <label for="year">Ár</label>
-              <select class="year" name="year">
+            <label class="form_label" for="year">Ár</label>
+              <select class="form_input_year" name="year">
                 <option value="2019">2019</option>
                 <option value="2020">2020</option>
                 <option value="2021">2021</option>

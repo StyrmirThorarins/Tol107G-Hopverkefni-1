@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* SCSS for page appearance */
 /* SCSS variables for page */
 /* SCSS grid for page */
@@ -90,20 +91,40 @@ main {
     max-width: 100%; }
   .cart_form {
     flex-wrap: wrap; }
-  .cart_button {
-    width: 15rem;
+  .cart_button_delete {
+    width: 10rem;
     height: 2.5rem;
     margin-top: 2rem;
+    padding-right: 1rem;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
     color: #000;
-    text-align: center;
+    background-image: url("../img/cart.svg");
+    background-repeat: no-repeat;
+    transition: color 200ms ease-in-out;
+    text-align: right;
+    border-radius: 0.3rem;
+    align-self: flex-start; }
+  .cart_button_update {
+    width: 8rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    padding-right: 1rem;
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    color: #000;
+    background-image: url("../img/cart.svg");
+    background-repeat: no-repeat;
+    transition: color 200ms ease-in-out;
+    text-align: right;
     border-radius: 0.3rem;
     align-self: flex-start; }
   .cart_price {
     font-family: "Oswald", verdana, serif;
-    font-size: 1.3rem;
-    font-weight: bold; }
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10em;
+    margin-bottom: 0.25em; }
 
 .footer {
   width: 100%;
@@ -164,6 +185,7 @@ main {
     font-weight: 600;
     text-align: center; }
 
+/*Er þessi einhversstaðar í skjalinu?*/
 .header_price {
   margin-top: 2rem;
   font-family: "Oswald", verdana, serif;
@@ -171,7 +193,8 @@ main {
 
 .heading2 {
   font-family: "Oswald", verdana, serif;
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-bottom: 1rem; }
 
 .main_text {
   margin-top: 2rem;
@@ -279,12 +302,33 @@ main {
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1.125rem; }
   .form_input {
-    width: 12.5rem;
-    height: 2rem;
+    width: 20rem;
+    height: 2.5rem;
     padding: 0.5rem;
-    margin: 0.5rem;
+    margin: 0.1rem;
     border: 0.0625rem solid #000;
     border-radius: 0.1875rem; }
+    .form_input_month {
+      width: 4rem;
+      height: 2.5rem;
+      padding: 0.5rem;
+      margin: 0.5rem;
+      border: 0.0625rem solid #000;
+      border-radius: 0.1875rem; }
+    .form_input_nr {
+      width: 5rem;
+      height: 2.5rem;
+      padding: 0.5rem;
+      margin: 0.1rem;
+      border: 0.0625rem solid #000;
+      border-radius: 0.1875rem; }
+    .form_input_year {
+      width: 5rem;
+      height: 2.5rem;
+      padding: 0.5rem;
+      margin: 0.5rem;
+      border: 0.0625rem solid #000;
+      border-radius: 0.1875rem; }
 
 .month {
   width: 3.75rem;
