@@ -40,6 +40,11 @@ main {
     margin-left: -0.625em;
     padding: 0.625em;
     flex-wrap: wrap; }
+    .grid_row_center {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center; }
   .grid_col-4 {
     width: 33.33333%;
     display: flex;
@@ -62,6 +67,7 @@ main {
     justify-content: flex-start;
     padding: 0.625em; }
   .grid_content {
+    width: 100%;
     display: wrap;
     padding: 0.625em; }
   .grid_pic {
@@ -94,7 +100,8 @@ main {
   .cart_button_delete {
     width: 10rem;
     height: 2.5rem;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
     padding-right: 1rem;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
@@ -103,7 +110,7 @@ main {
     background-repeat: no-repeat;
     transition: color 200ms ease-in-out;
     text-align: right;
-    border: 0.1rem solid #000;
+    border: 0.05rem solid #000;
     border-radius: 0.3rem;
     align-self: flex-start; }
     .cart_button_delete:hover {
@@ -111,7 +118,8 @@ main {
   .cart_button_update {
     width: 8rem;
     height: 2.5rem;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
     padding-right: 1rem;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
@@ -120,7 +128,7 @@ main {
     background-repeat: no-repeat;
     transition: color 200ms ease-in-out;
     text-align: right;
-    border: 0.1rem solid #000;
+    border: 0.05rem solid #000;
     border-radius: 0.3rem;
     align-self: flex-start; }
     .cart_button_update:hover {
@@ -298,6 +306,7 @@ main {
     font-size: 1rem;
     color: #000;
     text-align: center;
+    border: none;
     background-color: #00b7ff;
     border-radius: 0.1875rem;
     align-self: center; }
@@ -308,7 +317,7 @@ main {
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1.125rem; }
   .form_input {
-    width: 18rem;
+    width: 22rem;
     height: 2.5rem;
     padding: 0.5rem;
     margin: 0.1rem;
@@ -338,8 +347,8 @@ main {
   .form_item {
     display: flex;
     justify-content: space-between;
-    margin: 0.5rem;
-    width: 100%; }
+    margin-top: 0.5rem;
+    width: 90%; }
 
 .month {
   width: 3.75rem;
