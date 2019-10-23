@@ -39,7 +39,7 @@ main {
     margin-left: -0.625em;
     padding: 0.625em;
     flex-wrap: wrap; }
-    .grid_row_center {
+    .grid_row--center {
       display: flex;
       width: 100%;
       align-items: center;
