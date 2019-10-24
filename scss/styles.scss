@@ -138,10 +138,7 @@ main { /* stylelint-disable-line */
     max-width: $max-width;
     padding-top: $gutter * 2;
     padding-bottom: $gutter *2;
-<<<<<<< HEAD
-=======
     padding-left: $gutter *1.5;
->>>>>>> 6cb1280a6c43ccb0db7aa3517f6623834d58ed95
     margin: 0 auto;
 
     @media (max-width: $max-width -1) {
@@ -201,7 +198,7 @@ main { /* stylelint-disable-line */
 }
 
 .header {
-  margin-bottom: $gutter * 1;
+  margin-bottom: $gutter * 3;
   background-color: $color-3;
 
   &_content {
