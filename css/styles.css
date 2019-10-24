@@ -26,7 +26,7 @@
   .grid_content {
     width: 100%;
     display: wrap;
-    padding: 0.625em; }
+    padding-top: 0.625em; }
   .grid_pic {
     max-width: 100%;
     display: flex;
