@@ -22,11 +22,10 @@
 
   &_container {
     max-width: $max-width;
-    padding: $gutter;
   }
   &_row {
     @include row;
-    padding: $gutter*0.5;
+    padding-bottom: $gutter*0.5;
     flex-wrap: wrap;
 
     &_center{

@@ -10,14 +10,13 @@
   align-items: center;
   justify-content: center; }
   .grid_container {
-    max-width: 75em;
-    padding: 1.25em; }
+    max-width: 75em; }
   .grid_row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -0.625em;
     margin-left: -0.625em;
-    padding: 0.625em;
+    padding-bottom: 0.625em;
     flex-wrap: wrap; }
     .grid_row_center {
       display: flex;
