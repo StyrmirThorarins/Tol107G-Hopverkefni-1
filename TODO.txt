@@ -8,6 +8,7 @@ x run stylelint on scss files
 x re-add gitignore for .css
 80% finish readme
 x responsive css missing for grid
+x added responsive code to site-grid, added responsive classes to index, staff and product pages as examples
 
 Hrafnhildur
 -----------
