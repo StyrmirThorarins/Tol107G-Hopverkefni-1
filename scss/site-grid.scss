@@ -91,7 +91,7 @@
 }
 
 @media(max-width: 800px){
-  .grid_row:first-child{
+  .grid_row_switch:first-child{
     flex-direction: column-reverse;
   }
 }
