@@ -170,6 +170,7 @@ main {
     max-width: 75em;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
+    padding-left: 2.5em;
     margin: 0 auto; }
     @media (max-width: 75em -1) {
       .footer_container {
@@ -211,7 +212,7 @@ main {
     text-align: center; }
 
 .header {
-  margin-bottom: 1.25em;
+  margin-bottom: 6.25em;
   background-color: #ff5000; }
   .header_content {
     display: flex;
