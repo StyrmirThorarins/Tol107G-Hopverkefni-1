@@ -220,7 +220,7 @@ main {
     text-align: center; }
 
 .header {
-  margin-bottom: 3.75em;
+  margin-bottom: 0.625em;
   background-color: #ff5000; }
   .header_content {
     display: flex;
