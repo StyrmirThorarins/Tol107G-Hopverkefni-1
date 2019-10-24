@@ -16,7 +16,7 @@
     flex-wrap: wrap;
     margin-right: -0.625em;
     margin-left: -0.625em;
-    padding-bottom: 0.625em;
+    padding-bottom: 2.5em;
     flex-wrap: wrap; }
     .grid_row_center {
       display: flex;
@@ -106,11 +106,12 @@ main {
   display: flex;
   padding: 0.625em;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  /*&_form {
+    flex-wrap: wrap;
+  }*/ }
   .cart_img {
     max-width: 100%; }
-  .cart_form {
-    flex-wrap: wrap; }
   .cart_button_add {
     width: 9rem;
     height: 2.5rem;
@@ -379,11 +380,11 @@ h2 {
     margin-top: 0.5rem;
     width: 90%; }
   .form_prod {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 1.25em; }
     .form_prod_item {
       width: 100%;
       display: flex;
-      justify-content: space-between;
-      margin-top: 0.5rem; }
+      justify-content: space-between; }
 
 /* INPUT SCSS END */

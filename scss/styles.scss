@@ -57,9 +57,9 @@ main { /* stylelint-disable-line */
     max-width: 100%;
   }
 
-  &_form {
+  /*&_form {
     flex-wrap: wrap;
-  }
+  }*/
 
   &_button_add{
     width: 9rem;
@@ -413,11 +413,11 @@ h2 {
 
   &_prod{
     width: 100%;
+    margin-bottom: $gutter;
     &_item{
       width:100%;
       display: flex;
       justify-content: space-between;
-      margin-top: 0.5rem;
     }
   }
 }
