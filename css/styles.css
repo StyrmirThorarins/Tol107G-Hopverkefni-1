@@ -299,6 +299,9 @@ main {
   .footer_col {
     width: 100%;
     margin-bottom: 1.25em; }
+    @media (min-width: 400px) {
+      .footer_col {
+        width: 50%; } }
     @media (min-width: 900px) {
       .footer_col {
         width: 25%;
@@ -322,7 +325,7 @@ main {
     text-align: center; }
 
 .header {
-  margin-bottom: 2.5em;
+  margin-bottom: 3.75em;
   background-color: #ff5000; }
   .header_content {
     display: flex;

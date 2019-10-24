@@ -156,6 +156,10 @@ main { /* stylelint-disable-line */
     @include columns (12);
     margin-bottom: $gutter;
 
+    @media (min-width: 400px) {
+      @include columns(6);
+    }
+
     @media (min-width: 900px) {
       @include columns(3);
       margin-bottom: 0;
@@ -193,7 +197,7 @@ main { /* stylelint-disable-line */
 }
 
 .header {
-  margin-bottom: $gutter * 2;
+  margin-bottom: $gutter * 3;
   background-color: $color-3;
 
   &_content {
