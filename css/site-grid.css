@@ -48,6 +48,12 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding: 0.625em; }
+  @media (max-width: 800px) {
+    .grid_col_m-6 {
+      width: 50%; } }
+  @media (max-width: 500px) {
+    .grid_col_sm-12 {
+      width: 100%; } }
 
 /*
 @mixin col {
