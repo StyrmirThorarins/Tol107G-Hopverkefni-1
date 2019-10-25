@@ -391,7 +391,7 @@ h2 {
           .form_input_nr_prod {
             width: 12rem; } }
     .form_input_year {
-      width: 5rem;
+      width: 6rem;
       height: 2.5rem;
       padding: 0.625em;
       margin: 0.625em;
@@ -401,7 +401,7 @@ h2 {
       width: 22rem;
       height: 2.5rem;
       padding: 0.625em;
-      border: 0.0625 solid #000;
+      border: 0.0625rem solid #000;
       border-radius: 0.1875rem; }
       @media (min-width: 700px) and (max-width: 1200px) {
         .form_input_course {

@@ -398,7 +398,7 @@ h2 {
       }
 
       &_year{
-        width: 5rem;
+        width: 6rem;
         height: 2.5rem;
         padding: $gutter*0.5;
         margin: $gutter*0.5;
@@ -409,7 +409,7 @@ h2 {
         width: 22rem;
         height: 2.5rem;
         padding: $gutter*0.5;
-        border: 0.0625 solid $color_1;
+        border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
         @media(min-width:700px) and (max-width:1200px){
           width: 12rem;
