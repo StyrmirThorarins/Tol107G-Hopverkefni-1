@@ -22,10 +22,6 @@
 
   &_container {
     max-width: $max-width;
-    @media(max-width: 1200px){
-      /*margin-right:$gutter;
-      margin-left:$gutter;*/
-    }
   }
   &_row {
     @include row;

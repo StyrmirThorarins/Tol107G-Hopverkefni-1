@@ -10,10 +10,6 @@
   justify-content: center; }
   .grid_container {
     max-width: 75em; }
-    @media (max-width: 1200px) {
-      .grid_container {
-        /*margin-right:$gutter;
-      margin-left:$gutter;*/ } }
   .grid_row {
     display: flex;
     flex-wrap: wrap;
