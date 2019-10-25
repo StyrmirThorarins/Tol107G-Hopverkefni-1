@@ -52,7 +52,7 @@
   }
 
   &__back {
-    overflow: wrap;
+    overflow-wrap: break-word;
     background-color: $color-5;
     transform: rotateY(180deg);
   }
