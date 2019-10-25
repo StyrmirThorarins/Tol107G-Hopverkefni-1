@@ -78,7 +78,6 @@ main { /* stylelint-disable-line */
   &_button_delete{
     width: 10rem;
     height: 2.5rem;
-    margin-top: 0.5rem;
     margin-left: 0.5rem;
     padding-right: 1rem;
     font-family: $font-main;
@@ -99,7 +98,6 @@ main { /* stylelint-disable-line */
   &_button_update{
     width: 8rem;
     height: 2.5rem;
-    margin-top: 0.5rem;
     margin-left: 0.5rem;
     padding-right: 1rem;
     font-family: $font-main;
@@ -359,6 +357,12 @@ h2 {
       margin: 0.1rem;
       border: 0.0625rem solid $color_1;
       border-radius: 0.1875rem;
+      @media(min-width: 700px) and (max-width: 1200px){
+        width: 14rem;
+      }
+      @media(max-width: 700px){
+        width: 18rem;
+      }
 
       &_month{
         width: 4rem;
@@ -378,12 +382,16 @@ h2 {
         border-radius: 0.1875rem;
 
         &_prod{
-          width: 13rem;
+          width: 22rem;
           height: 2.5rem;
           padding: 0.5rem;
           margin: 0.1rem;
           border: 0.1rem solid $color-1;
           border-radius: 0.2rem;
+          @media (min-width: 700px) and (max-width:1200px){
+            width: 12rem;
+          }
+
         }
       }
 
@@ -401,6 +409,13 @@ h2 {
         padding: 0.5rem;
         border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
+        @media(min-width:700px) and (max-width:1200px){
+          width: 12rem;
+        }
+        @media(max-width: 700px){
+          width: 18rem;
+        }
+
       }
   }
 
@@ -408,11 +423,10 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-top: $gutter*0.5;
-    width: 90%;
+    width: 100%;
     &_cart{
       width: 100%;
       display: flex;
-      margin-top: 0rem;
       justify-content: flex-start;
     }
   }

@@ -22,6 +22,10 @@
 
   &_container {
     max-width: $max-width;
+    @media(max-width: 1200px){
+      margin-right:$gutter;
+      margin-left:$gutter;
+    }
   }
   &_row {
     @include row;
@@ -34,17 +38,42 @@
       align-items: center;
       justify-content: center;
     }
+
+    &_product{
+      @media(min-width: 1200px){
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-right: $gutter*2;
+        margin-left: $gutter*2;
+      }
+      @media (min-width: 700px) and (max-width: 1200px){
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: $gutter*2;
+        margin-left: $gutter*2;
+      }
+    }
   }
   &_content {
     width: 100%;
-    display: wrap;
     padding-top: $gutter*0.5;
+    @media(max-width: 1200px){
+      margin-left: $gutter;
+      margin-right: $gutter;
+    }
   }
 
   &_pic {
     max-width: 100%;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    @media(max-width: 1200px){
+      margin-left: $gutter;
+      margin-right: $gutter;
+    }
   }
 
   &_col-4 {
@@ -89,7 +118,7 @@
   }   
 }
 
-@media(max-width: 800px){
+@media(max-width: 700){
   .grid_row_switch:first-child{
     flex-direction: column-reverse;
   }
