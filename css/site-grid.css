@@ -81,6 +81,6 @@
     .grid_col_sm-12 {
       width: 100%; } }
 
-@media (max-width: 700px) {
+@media (max-width: 700) {
   .grid_row_switch:first-child {
     flex-direction: column-reverse; } }
