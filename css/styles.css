@@ -108,17 +108,17 @@ main {
   display: block;
   width: 15rem;
   height: 2.5rem;
-  margin-top: 2rem;
   padding-top: 0.5rem;
+  margin-top: 2rem;
   font-family: "Open Sans", helvetica, arial, sans-serif;
   font-size: 1rem;
-  border: none;
   color: #000;
   text-align: center;
+  text-decoration: none;
   background: #00b7ff;
+  border: none;
   border-radius: 0.3rem;
-  align-self: flex-start;
-  text-decoration: none; }
+  align-self: flex-start; }
   .button:hover {
     color: #fff;
     background-color: #ff5000; }
@@ -133,64 +133,64 @@ main {
   .cart_button_add {
     width: 9rem;
     height: 2.5rem;
-    margin-left: 0.625em;
     padding-right: 0.625em;
+    margin-left: 0.625em;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
     color: #000;
+    text-align: right;
     background-image: url("../img/cart.svg");
     background-repeat: no-repeat;
-    transition: color 200ms ease-in-out;
-    text-align: right;
     border: 0.05rem solid #000;
     border-radius: 0.3rem;
+    transition: color 200ms ease-in-out;
     align-self: flex-start; }
     .cart_button_add:hover {
       background-color: #00b7ff; }
   .cart_button_delete {
     width: 10rem;
     height: 2.5rem;
-    margin-left: 0.625em;
     padding-right: 0.625em;
+    margin-left: 0.625em;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
     color: #000;
+    text-align: right;
     background-image: url("../img/cart.svg");
     background-repeat: no-repeat;
-    transition: color 200ms ease-in-out;
-    text-align: right;
     border: 0.05rem solid #000;
     border-radius: 0.3rem;
+    transition: color 200ms ease-in-out;
     align-self: flex-start; }
     .cart_button_delete:hover {
       background-color: #00b7ff; }
   .cart_button_update {
     width: 8rem;
     height: 2.5rem;
-    margin-left: 0.625em;
     padding-right: 0.625em;
+    margin-left: 0.625em;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
     color: #000;
+    text-align: right;
     background-image: url("../img/cart.svg");
     background-repeat: no-repeat;
-    transition: color 200ms ease-in-out;
-    text-align: right;
     border: 0.05rem solid #000;
     border-radius: 0.3rem;
+    transition: color 200ms ease-in-out;
     align-self: flex-start; }
     .cart_button_update:hover {
       background-color: #00b7ff; }
   .cart_form {
+    margin-top: 3.75em;
+    margin-top: 2rem;
+    margin-bottom: 0.625em;
     font-family: "Oswald", verdana, serif;
     font-size: 1rem;
-    font-weight: bold;
-    margin-top: 3.75em;
-    margin-bottom: 0.625em;
-    margin-top: 2rem; }
+    font-weight: bold; }
   .cart_price {
-    font-family: "Oswald", verdana, serif;
     margin-top: 2rem;
+    font-family: "Oswald", verdana, serif;
     font-size: 1.5rem;
     font-weight: bold; }
 
@@ -259,9 +259,9 @@ main {
     text-align: center; }
 
 h2 {
+  margin-bottom: 0.625em;
   font-family: "Oswald", verdana, serif;
-  font-size: 2rem;
-  margin-bottom: 0.625em; }
+  font-size: 2rem; }
 
 .main_text {
   margin-top: 2rem;
@@ -330,19 +330,19 @@ h2 {
 /* INPUT SCSS START */
 .form {
   display: flex;
-  flex-direction: column;
   max-width: 75em;
   margin: 0.625em;
   font-size: 1.125rem;
+  flex-direction: column;
   flex-wrap: wrap; }
   .form_button {
-    height: 2.5rem;
     width: 18rem;
+    height: 2.5rem;
     font-size: 1rem;
     color: #000;
     text-align: center;
-    border: none;
     background-color: #00b7ff;
+    border: none;
     border-radius: 0.1875rem;
     align-self: center; }
     .form_button:hover {
@@ -372,8 +372,8 @@ h2 {
     .form_input_month {
       width: 4rem;
       height: 2.5rem;
-      margin: 0.625em;
       padding: 0.625em;
+      margin: 0.625em;
       border: 0.0625rem solid #000;
       border-radius: 0.1875rem; }
     .form_input_nr {
@@ -413,18 +413,18 @@ h2 {
   .form_item {
     display: flex;
     justify-content: space-between;
-    margin-top: 0.625em;
-    width: 100%; }
+    width: 100%;
+    margin-top: 0.625em; }
     .form_item_cart {
-      width: 100%;
       display: flex;
+      width: 100%;
       justify-content: flex-start; }
   .form_prod {
     width: 100%;
     margin-bottom: 1.25em; }
     .form_prod_item {
-      width: 100%;
       display: flex;
+      width: 100%;
       justify-content: space-between; }
 
 /* INPUT SCSS END */
