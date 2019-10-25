@@ -32,17 +32,17 @@ main { /* stylelint-disable-line */
   display: block;
   width: 15rem;
   height: 2.5rem;
-  margin-top: 2rem;
   padding-top: 0.5rem;
+  margin-top: 2rem;
   font-family: $font-main;
   font-size: 1rem;
-  border: none;
   color: $color-1;
   text-align: center;
+  text-decoration: none;
   background: $color-4;
+  border: none;
   border-radius: 0.3rem;
   align-self: flex-start;
-  text-decoration: none;
 
   &:hover {
     color: $color-5;
@@ -60,77 +60,81 @@ main { /* stylelint-disable-line */
     max-width: 100%;
   }
 
-  &_button_add{
+  &_button_add {
     width: 9rem;
     height: 2.5rem;
-    margin-left: $gutter*0.5;
     padding-right: $gutter*0.5;
+    margin-left: $gutter*0.5;
     font-family: $font-main;
     font-size: 1rem;
     color: $color-1;
+    text-align: right;
     background-image: url("../img/cart.svg");
     background-repeat: no-repeat;
-    transition: color $transition;
-    text-align: right;
     border: 0.05rem solid $color-1;
     border-radius: 0.3rem;
+    transition: color $transition;
     align-self: flex-start;
-    &:hover{
+
+    &:hover {
       background-color: $color-4;
     }
   }
-  &_button_delete{
+
+  &_button_delete {
     width: 10rem;
     height: 2.5rem;
-    margin-left: $gutter*0.5;;
     padding-right: $gutter*0.5;
+    margin-left: $gutter*0.5;
     font-family: $font-main;
     font-size: 1rem;
     color: $color-1;
+    text-align: right;
     background-image: url("../img/cart.svg");
     background-repeat: no-repeat;
-    transition: color $transition;
-    text-align: right;
     border: 0.05rem solid $color-1;
     border-radius: 0.3rem;
+    transition: color $transition;
     align-self: flex-start;
-    &:hover{
+
+    &:hover {
       background-color: $color-4;
     }
   }
 
-  &_button_update{
+  &_button_update {
     width: 8rem;
     height: 2.5rem;
-    margin-left: $gutter*0.5;
     padding-right: $gutter*0.5;
+    margin-left: $gutter*0.5;
     font-family: $font-main;
     font-size: 1rem;
     color: $color-1;
+    text-align: right;
     background-image: url("../img/cart.svg");
     background-repeat: no-repeat;
-    transition: color $transition;
-    text-align: right;
     border: 0.05rem solid $color-1;
     border-radius: 0.3rem;
+    transition: color $transition;
     align-self: flex-start;
-    &:hover{
+
+    &:hover {
       background-color: $color-4;
     }
   }
 
-  &_form{
+  &_form {
+    margin-top: $gutter*3;
+    margin-top: 2rem;
+    margin-bottom: $gutter*0.5;
     font-family: $font-heading;
     font-size: 1rem;
     font-weight: bold;
-    margin-top: $gutter*3;
-    margin-bottom:$gutter*0.5;
-    margin-top: 2rem;
   }
 
-  &_price{
-    font-family: $font-heading;
+  &_price {
     margin-top: 2rem;
+    font-family: $font-heading;
     font-size: 1.5rem;
     font-weight: bold;
   }
@@ -207,7 +211,6 @@ main { /* stylelint-disable-line */
   margin-bottom: $gutter * 0.5;
   background-color: $color-3;
 
-
   &_content {
     display: flex;
     max-width: $max-width;
@@ -227,9 +230,9 @@ main { /* stylelint-disable-line */
 }
 
 h2 {
+  margin-bottom: $gutter*0.5;
   font-family: $font-heading;
   font-size: 2rem;
-  margin-bottom: $gutter*0.5;
 }
 
 .main_text {
@@ -323,20 +326,20 @@ h2 {
 
 .form {
   display: flex;
-  flex-direction: column;
   max-width: $max-width;
   margin: $gutter*0.5;
   font-size: 1.125rem;
+  flex-direction: column;
   flex-wrap: wrap;
 
   &_button {
-    height: 2.5rem;
     width: 18rem;
+    height: 2.5rem;
     font-size: 1rem;
     color: $color_1;
     text-align: center;
-    border: none;
     background-color: $color-4;
+    border: none;
     border-radius: 0.1875rem;
     align-self: center;
 
@@ -346,103 +349,113 @@ h2 {
     }
   }
 
-  &_cart{
-    width:100%;
+  &_cart {
+    width: 100%;
     margin-top: $gutter;
   }
-  &_label{
+
+  &_label {
     font-family: $font-main;
     font-size: 1.125rem;
-    &_month{
+
+    &_month {
       margin-left: $gutter;
     }
   }
 
-  &_input{
-      width: 22rem;
+  &_input {
+    width: 22rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    border: 0.0625rem solid $color_1;
+    border-radius: 0.1875rem;
+
+    @media (min-width: 700px) and (max-width: 1200px) {
+      width: 14rem;
+    }
+
+    @media (max-width: 700px) {
+      width: 18rem;
+    }
+
+    &_month {
+      width: 4rem;
       height: 2.5rem;
-      padding: 0.5rem;
-      margin: 0.1rem;
+      padding: $gutter*0.5;
+      margin: $gutter*0.5;
       border: 0.0625rem solid $color_1;
       border-radius: 0.1875rem;
-      @media(min-width: 700px) and (max-width: 1200px){
-        width: 14rem;
+    }
+
+    &_nr {
+      width: 5rem;
+      height: 2.5rem;
+      padding: $gutter*0.5;
+      padding: $gutter*0.5;
+      border: 0.0625rem solid $color_1;
+      border-radius: 0.1875rem;
+
+      &_prod {
+        width: 16rem;
+        height: 2.5rem;
+        border: 0.1rem solid $color-1;
+        border-radius: 0.2rem;
+
+        @media (min-width: 700px) and (max-width: 1200px) {
+          width: 12rem;
+        }
+
       }
-      @media(max-width: 700px){
+    }
+
+    &_year {
+      width: 6rem;
+      height: 2.5rem;
+      padding: $gutter*0.5;
+      margin: $gutter*0.5;
+      border: 0.0625rem solid $color_1;
+      border-radius: 0.1875rem;
+    }
+
+    &_course {
+      width: 22rem;
+      height: 2.5rem;
+      padding: $gutter*0.5;
+      border: 0.0625rem solid $color_1;
+      border-radius: 0.1875rem;
+
+      @media (min-width: 700px) and (max-width: 1200px) {
+        width: 12rem;
+      }
+
+      @media (max-width: 700px) {
         width: 18rem;
       }
 
-      &_month{
-        width: 4rem;
-        height: 2.5rem;
-        margin: $gutter*0.5;
-        padding: $gutter*0.5;
-        border: 0.0625rem solid $color_1;
-        border-radius: 0.1875rem;
-      }
-
-      &_nr{
-        width: 5rem;
-        height: 2.5rem;
-        padding: $gutter*0.5;
-        padding: $gutter*0.5;
-        border: 0.0625rem solid $color_1;
-        border-radius: 0.1875rem;
-
-        &_prod{
-          width: 16rem;
-          height: 2.5rem;
-          border: 0.1rem solid $color-1;
-          border-radius: 0.2rem;
-          @media (min-width: 700px) and (max-width:1200px){
-            width: 12rem;
-          }
-
-        }
-      }
-
-      &_year{
-        width: 6rem;
-        height: 2.5rem;
-        padding: $gutter*0.5;
-        margin: $gutter*0.5;
-        border: 0.0625rem solid $color_1;
-        border-radius: 0.1875rem;
-      }
-      &_course{
-        width: 22rem;
-        height: 2.5rem;
-        padding: $gutter*0.5;
-        border: 0.0625rem solid $color_1;
-        border-radius: 0.1875rem;
-        @media(min-width:700px) and (max-width:1200px){
-          width: 12rem;
-        }
-        @media(max-width: 700px){
-          width: 18rem;
-        }
-
-      }
+    }
   }
 
-  &_item{
+  &_item {
     display: flex;
     justify-content: space-between;
-    margin-top: $gutter*0.5;
     width: 100%;
-    &_cart{
-      width: 100%;
+    margin-top: $gutter*0.5;
+
+    &_cart {
       display: flex;
+      width: 100%;
       justify-content: flex-start;
     }
   }
 
-  &_prod{
+  &_prod {
     width: 100%;
     margin-bottom: $gutter;
-    &_item{
-      width:100%;
+
+    &_item {
       display: flex;
+      width: 100%;
       justify-content: space-between;
     }
   }
