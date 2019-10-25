@@ -336,8 +336,10 @@ h2 {
   font-size: 1.125rem;
   flex-wrap: wrap; }
   .form_button {
-    padding: 1em 6.25rem;
-    margin: 0.625em;
+    height: 2.5rem;
+    width: 15rem;
+    /* padding: $gutter $gutter*3;
+    margin: $gutter*0.5;*/
     font-size: 1rem;
     color: #000;
     text-align: center;

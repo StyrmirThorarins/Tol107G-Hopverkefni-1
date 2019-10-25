@@ -327,8 +327,10 @@ h2 {
   flex-wrap: wrap;
 
   &_button {
-    padding: 1em 6.25rem;
-    margin: $gutter*0.5;
+    height: 2.5rem;
+    width: 15rem;
+   /* padding: $gutter $gutter*3;
+    margin: $gutter*0.5;*/
     font-size: 1rem;
     color: $color_1;
     text-align: center;
