@@ -3,17 +3,31 @@
 @import "scss/config.scss";
 
 .card-container {
-  width: 500px;  
-  height: 700px;
+  // image Karitas.jpg dimensions: 2319x3504, 1x1.51 ratio
+  // image Uflur Arnar.jpg dimensions: 4000x6000, 1x1.5 ratio
+  width: 35rem; 
+  height: 50rem; 
   overflow: hidden;
   background-color: transparent;
+
+  @media (max-width: 800px) {    
+    width: 28.5rem; 
+    height: 42rem; 
+  }    
+
+  @media (max-width: 500px) {      
+    width: 25.125rem;  
+    height: 37rem; 
+  }
 }
+
 
 .card {
   position: relative;
   display: flex;
   width: 100%;
   height: 100%;
+  
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -27,6 +41,7 @@
 
   &__front,
   &__back {
+    padding: 0px $gutter 0px $gutter;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -34,10 +49,11 @@
   }
 
   &__front {
-    background-color: $color-2;
+    background-color: $color-5;    
   }
 
   &__back {
+    overflow: wrap;
     background-color: $color-5;
     transform: rotateY(180deg);
   }
