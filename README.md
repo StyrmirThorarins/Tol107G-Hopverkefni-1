@@ -25,6 +25,18 @@
 ### Technologies Used
 Htlm, .SCSS (translated into .CSS before running with script), node package manager for command line scripts, scripts written in package.json in the root.
 
+### Scripts
+* "scss": "node-sass --watch scss -o css",
+
+* "lint-a": "stylelint scss/card-animation.scss --syntax scss",
+* "lint-c": "stylelint scss/config.scss --syntax scss",
+* "lint-g": "stylelint scss/site-grid.scss --syntax scss",
+* "lint-s": "stylelint scss/styles.scss --syntax scss",    
+
+* "browser-sync": "browser-sync start --server --files index.html styles.css",    
+* "dev": "npm-run-all --parallel scss browser-sync",
+* "start": "npm-run-all --parallel browser-sync"
+
 ### SCSS Organization Breakdown
 All SCSS files are placed in the '/scss' folder. 
 * card-animation.scss, handles the animation of the staff members on the staff page
