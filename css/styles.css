@@ -337,9 +337,7 @@ h2 {
   flex-wrap: wrap; }
   .form_button {
     height: 2.5rem;
-    width: 15rem;
-    /* padding: $gutter $gutter*3;
-    margin: $gutter*0.5;*/
+    width: 18rem;
     font-size: 1rem;
     color: #000;
     text-align: center;
@@ -372,22 +370,22 @@ h2 {
     .form_input_month {
       width: 4rem;
       height: 2.5rem;
-      padding: 0.5rem;
-      margin: 0.5rem;
+      padding: 0.625em;
+      margin: 0.625em;
       border: 0.0625rem solid #000;
       border-radius: 0.1875rem; }
     .form_input_nr {
       width: 5rem;
       height: 2.5rem;
-      padding: 0.5rem;
-      margin: 0.1rem;
+      padding: 0.625em;
+      padding: 0.625em;
       border: 0.0625rem solid #000;
       border-radius: 0.1875rem; }
       .form_input_nr_prod {
         width: 22rem;
         height: 2.5rem;
-        padding: 0.5rem;
-        margin: 0.1rem;
+        padding: 0.625em;
+        margin: 0.625em;
         border: 0.1rem solid #000;
         border-radius: 0.2rem; }
         @media (min-width: 700px) and (max-width: 1200px) {
