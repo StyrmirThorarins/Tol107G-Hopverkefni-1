@@ -209,7 +209,7 @@ main { /* stylelint-disable-line */
     max-width: $max-width;
     margin: 0 auto;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
   }
 
   &_title {
