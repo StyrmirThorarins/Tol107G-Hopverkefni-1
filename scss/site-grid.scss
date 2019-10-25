@@ -22,11 +22,10 @@
 
   &_container {
     max-width: $max-width;
-    padding: $gutter;
   }
   &_row {
     @include row;
-    padding: $gutter*0.5;
+    padding-bottom: $gutter*0.5;
     flex-wrap: wrap;
 
     &_center{
@@ -39,11 +38,13 @@
   &_content {
     width: 100%;
     display: wrap;
-    padding: $gutter*0.5;
+    padding-top: $gutter*0.5;
   }
 
   &_pic {
     max-width: 100%;
+    display: flex;
+    align-items: flex-start;
   }
 
   &_col-4 {
@@ -59,6 +60,7 @@
     @include columns (6);
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     padding: $gutter*0.5;
@@ -68,6 +70,7 @@
     @include columns (8);
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     padding: $gutter*0.5;
@@ -86,10 +89,8 @@
   }   
 }
 
-.grid_row:first-child .grid_col-6:nth-child(2){
-  @media (max-width: 800){
-    padding-left: ;
+@media(max-width: 800px){
+  .grid_row_switch:first-child{
+    flex-direction: column-reverse;
   }
-
 }
-
