@@ -40,16 +40,16 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        margin-right: $gutter*2;
-        margin-left: $gutter*2;
+        /*margin-right: $gutter;
+        margin-left: $gutter;*/
       }
       @media (min-width: 700px) and (max-width: 1200px){
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        margin-right: $gutter*2;
-        margin-left: $gutter*2;
+        /*margin-right: $gutter*2;
+        margin-left: $gutter*2;*/
       }
     }
   }
