@@ -36,7 +36,7 @@
   .card__front {
     background-color: #fff; }
   .card__back {
-    overflow: wrap;
+    overflow-wrap: break-word;
     background-color: #fff;
     transform: rotateY(180deg); }
   .card__back h2 {
