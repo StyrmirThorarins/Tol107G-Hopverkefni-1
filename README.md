@@ -7,29 +7,30 @@
 1) Install package needed node modules. Run 'npm init' to download neccesary packages. This refers to the package-lock.json file in the root.
 
 2) Generate css.
-* run 'npm run scss' then edit and save the relevant scss files to generate the .css files needed into the '/css' folder.
-* similarly running 'npm run dev' will also monitor changes to the scss files and generate css files into the '/css' folder.
+* Run 'npm run scss' then edit and save the relevant scss files to generate the .css files needed into the '/css' folder.
+* Similarly running 'npm run dev' will start a web sever and also monitor changes to the scss files and generate css files into the '/css' folder.
 
 3) Start the website.
-* run 'npm run start' in the command line. This starts the website using a local host.
-
-- run from project root in console, calling scrip from package.json: npm run dev
-- created non-dev script to run the project
+* Navigate to the root of the project tree with you console terminal.
+* Run 'npm run start' in the command line. This starts the website using a local host.
 
 ## Project Overview
 ### File Tree Description
 * / , contains the index page, package.json, readme, and other configuration files.
-* /css, contains scss files converted to css. These are the actual stylesheet that the website relies on.
+* /css, contains css files converted from scss files. These are the actual stylesheet that the website relies on.
+* /scss, contains scss files that are converted to be converted to css files.
 * /img, contains all the images in the project.
 * /pages, contains the html files for the 4 sub-pages of the project.
-* /scss, contains all the scss configuration files.
+
 ### Technologies Used
-Htlm, .SCSS (translated into .CSS befor running), node package manager for command line scripts, scripts written in package.json in the root.
+Htlm, .SCSS (translated into .CSS before running with script), node package manager for command line scripts, scripts written in package.json in the root.
+
 ### SCSS Organization Breakdown
 All SCSS files are placed in the '/scss' folder. 
+* card-animation.scss, handles the animation of the staff members on the staff page
+* config.scss, contains variables that are accessed throughout the scss.
 * style.scss, is the main stylesheet for the whole website.
 * site-grid.scss, is the stylesheet containing the scss for the grid used for the pages layout.
-* config.scss, contains variables that are accessed throughout the scss.
 
 ## Project Members / Upplýsingar um alla sem unnu verkefnið
 ### Group / Hópur 33		
