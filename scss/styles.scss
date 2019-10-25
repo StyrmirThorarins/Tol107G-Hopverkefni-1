@@ -208,8 +208,8 @@ main { /* stylelint-disable-line */
     display: flex;
     max-width: $max-width;
     margin: 0 auto;
-  
-    align-items: center;
+    flex-direction: column;
+
     justify-content: center;
   }
 

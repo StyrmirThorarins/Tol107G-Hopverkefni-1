@@ -252,7 +252,7 @@ main {
     display: flex;
     max-width: 75em;
     margin: 0 auto;
-    align-items: center;
+    flex-direction: column;
     justify-content: center; }
   .header_title {
     margin-bottom: 1.25em;
