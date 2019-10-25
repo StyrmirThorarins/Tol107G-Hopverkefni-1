@@ -409,7 +409,7 @@ h2 {
       &_course{
         width: 22rem;
         height: 2.5rem;
-        padding: $gutter*0.5m;
+        padding: $gutter*0.5;
         border: $gutter*0.5 solid $color_1;
         border-radius: 0.1875rem;
         @media(min-width:700px) and (max-width:1200px){
