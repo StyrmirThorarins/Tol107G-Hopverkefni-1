@@ -105,15 +105,17 @@ main {
   margin: 0 auto; }
 
 .button {
+  display: block;
   width: 15rem;
   height: 2.5rem;
   margin-top: 2rem;
+  padding-top: 0.5rem;
   font-family: "Open Sans", helvetica, arial, sans-serif;
   font-size: 1rem;
   border: none;
   color: #000;
   text-align: center;
-  background-color: #00b7ff;
+  background: #00b7ff;
   border-radius: 0.3rem;
   align-self: flex-start;
   text-decoration: none; }
