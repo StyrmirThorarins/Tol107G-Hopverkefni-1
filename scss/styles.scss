@@ -57,10 +57,6 @@ main { /* stylelint-disable-line */
     max-width: 100%;
   }
 
-  &_form {
-    flex-wrap: wrap;
-  }
-
   &_button_add{
     width: 9rem;
     height: 2.5rem;
@@ -82,7 +78,6 @@ main { /* stylelint-disable-line */
   &_button_delete{
     width: 10rem;
     height: 2.5rem;
-    margin-top: 0.5rem;
     margin-left: 0.5rem;
     padding-right: 1rem;
     font-family: $font-main;
@@ -103,7 +98,6 @@ main { /* stylelint-disable-line */
   &_button_update{
     width: 8rem;
     height: 2.5rem;
-    margin-top: 0.5rem;
     margin-left: 0.5rem;
     padding-right: 1rem;
     font-family: $font-main;
@@ -121,12 +115,20 @@ main { /* stylelint-disable-line */
     }
   }
 
-  &_price{
+  &_form{
     font-family: $font-heading;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-top: $gutter*8;
     margin-bottom:$gutter*0.2;
+    margin-top: 2rem;
+  }
+
+  &_price{
+    font-family: $font-heading;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 }
 
@@ -201,6 +203,7 @@ main { /* stylelint-disable-line */
   margin-bottom: $gutter * 0.5;
   background-color: $color-3;
 
+
   &_content {
     display: flex;
     max-width: $max-width;
@@ -216,13 +219,6 @@ main { /* stylelint-disable-line */
 
     text-align: center;
   }
-}
-
-/*Er þessi einhversstaðar í skjalinu?*/
-.header_price {
-  margin-top: 2rem;
-  font-family: $font-heading;
-  font-size: 2rem;
 }
 
 h2 {
@@ -321,6 +317,7 @@ h2 {
 
 .form {
   display: flex;
+  flex-direction: column;
   max-width: $max-width;
   margin: $gutter*0.5;
   font-size: 1.125rem;
@@ -345,6 +342,7 @@ h2 {
 
   &_cart{
     width:100%;
+    margin-top: $gutter;
   }
   &_label{
     font-family: $font-main;
@@ -359,6 +357,12 @@ h2 {
       margin: 0.1rem;
       border: 0.0625rem solid $color_1;
       border-radius: 0.1875rem;
+      @media(min-width: 700px) and (max-width: 1200px){
+        width: 14rem;
+      }
+      @media(max-width: 700px){
+        width: 18rem;
+      }
 
       &_month{
         width: 4rem;
@@ -378,12 +382,16 @@ h2 {
         border-radius: 0.1875rem;
 
         &_prod{
-          width: 13rem;
+          width: 22rem;
           height: 2.5rem;
           padding: 0.5rem;
           margin: 0.1rem;
           border: 0.1rem solid $color-1;
           border-radius: 0.2rem;
+          @media (min-width: 700px) and (max-width:1200px){
+            width: 12rem;
+          }
+
         }
       }
 
@@ -401,23 +409,35 @@ h2 {
         padding: 0.5rem;
         border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
+        @media(min-width:700px) and (max-width:1200px){
+          width: 12rem;
+        }
+        @media(max-width: 700px){
+          width: 18rem;
+        }
+
       }
   }
 
   &_item{
     display: flex;
     justify-content: space-between;
-    margin-top: 0.5rem;
-    width: 90%;
+    margin-top: $gutter*0.5;
+    width: 100%;
+    &_cart{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+    }
   }
 
   &_prod{
     width: 100%;
+    margin-bottom: $gutter;
     &_item{
       width:100%;
       display: flex;
       justify-content: space-between;
-      margin-top: 0.5rem;
     }
   }
 }
