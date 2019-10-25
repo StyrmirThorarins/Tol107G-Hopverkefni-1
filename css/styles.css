@@ -355,6 +355,8 @@ h2 {
   .form_label {
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1.125rem; }
+    .form_label_month {
+      margin-left: 1.25em; }
   .form_input {
     width: 22rem;
     height: 2.5rem;
@@ -371,8 +373,8 @@ h2 {
     .form_input_month {
       width: 4rem;
       height: 2.5rem;
-      padding: 0.625em;
       margin: 0.625em;
+      padding: 0.625em;
       border: 0.0625rem solid #000;
       border-radius: 0.1875rem; }
     .form_input_nr {
