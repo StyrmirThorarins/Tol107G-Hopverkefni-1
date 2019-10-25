@@ -292,7 +292,7 @@ h2 {
 
     @media (min-width: 800px) {
       @include columns(2);
-      // @include offset-left(1);
+      @include offset-left(1);
 
       justify-content: flex-end;
     }
