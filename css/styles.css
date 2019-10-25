@@ -12,7 +12,6 @@
     max-width: 75em; }
   .grid_row {
     display: flex;
-    flex-wrap: wrap;
     margin-right: -0.625em;
     margin-left: -0.625em;
     padding-bottom: 2.5em;
@@ -185,7 +184,6 @@ main {
     font-family: "Oswald", verdana, serif;
     font-size: 1rem;
     font-weight: bold;
-    margin-top: 3.75em;
     margin-bottom: 0.625em;
     margin-top: 2rem; }
   .cart_price {
@@ -212,8 +210,7 @@ main {
     flex-wrap: wrap;
     margin-right: -0.625em;
     margin-left: -0.625em;
-    margin-bottom: 2.5em;
-    flex-wrap: wrap; }
+    margin-bottom: 2.5em; }
   .footer_col {
     width: 100%;
     margin-bottom: 1.25em; }
@@ -275,7 +272,6 @@ h2 {
     flex-wrap: wrap;
     margin-right: -0.625em;
     margin-left: -0.625em;
-    flex-wrap: wrap;
     justify-content: center; }
   .nav_list {
     width: 100%;
@@ -379,7 +375,6 @@ h2 {
     .form_input_nr {
       width: 5rem;
       height: 2.5rem;
-      padding: 0.625em;
       padding: 0.625em;
       border: 0.0625rem solid #000;
       border-radius: 0.1875rem; }
