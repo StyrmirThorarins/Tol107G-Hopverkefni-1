@@ -278,7 +278,8 @@ h2 {
     flex-wrap: wrap;
     margin-right: -0.625em;
     margin-left: -0.625em;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
   .nav_list {
     width: 100%;
     display: flex;

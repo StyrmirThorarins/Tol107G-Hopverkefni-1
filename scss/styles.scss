@@ -241,6 +241,7 @@ h2 {
   &_row {
     @include row();
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   &_list {
