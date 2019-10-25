@@ -1,9 +1,17 @@
 /* SCSS variables for page */
 .card-container {
-  width: 500px;
-  height: 700px;
+  width: 35rem;
+  height: 50rem;
   overflow: hidden;
   background-color: transparent; }
+  @media (max-width: 800px) {
+    .card-container {
+      width: 28.5rem;
+      height: 42rem; } }
+  @media (max-width: 500px) {
+    .card-container {
+      width: 25.125rem;
+      height: 37rem; } }
 
 .card {
   position: relative;
@@ -19,13 +27,15 @@
   .card img {
     max-width: 100%; }
   .card__front, .card__back {
+    padding: 0px 1.25em 0px 1.25em;
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden; }
   .card__front {
-    background-color: #fffcf2; }
+    background-color: #fff; }
   .card__back {
+    overflow: wrap;
     background-color: #fff;
     transform: rotateY(180deg); }
   .card__back h2 {
