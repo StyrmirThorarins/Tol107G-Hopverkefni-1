@@ -134,6 +134,7 @@ main {
   .cart_button_add {
     width: 9rem;
     height: 2.5rem;
+    margin-left: 0.625em;
     padding-right: 0.625em;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;

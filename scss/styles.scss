@@ -60,6 +60,7 @@ main { /* stylelint-disable-line */
   &_button_add{
     width: 9rem;
     height: 2.5rem;
+    margin-left: $gutter*0.5;
     padding-right: $gutter*0.5;
     font-family: $font-main;
     font-size: 1rem;
