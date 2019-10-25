@@ -119,7 +119,8 @@ main {
   text-align: center;
   background-color: #00b7ff;
   border-radius: 0.3rem;
-  align-self: flex-start; }
+  align-self: flex-start;
+  text-decoration: none; }
   .button:hover {
     color: #fff;
     background-color: #ff5000; }
