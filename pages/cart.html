@@ -58,7 +58,7 @@
               <div class="form_cart">
                 <label  class="form_label" for="cart_number">Fjöldi</label>
                 <div class="form_item_cart">
-                  <input class="form_input_nr" type="number" name="cart_number">
+                  <input class="form_input_nr" type="number" id="cart_number">
                   <button class="cart_button_update">Uppfæra</button>
                   <button class="cart_button_delete">Eyða úr körfu</button>
                 </div>
@@ -82,7 +82,7 @@
             <div class="form_cart">
               <label class="form_label" for="number_cart">Fjöldi</label>
                 <div class="form_item_cart">
-                  <input class="form_input_nr" type="number" name="number_cart">
+                  <input class="form_input_nr" type="number" id="number_cart">
                   <button class="cart_button_update">Uppfæra</button>
                   <button class="cart_button_delete">Eyða úr körfu</button>
                 </div>
@@ -98,15 +98,15 @@
           <h2>Sendingarupplýsingar</h2>
           <div class="form_item">
             <label class="form_label" for="name">Nafn:</label>
-            <input class="form_input" type="text" name="name"> 
+            <input class="form_input" type="text" id="name"> 
           </div>
           <div class="form_item">
             <label class="form_label" for="address">Heimilisfang:</label>
-            <input class="form_input" type="text" name="address">
+            <input class="form_input" type="text" id="address">
           </div>
           <div class="form_item">
-            <label class="form_label" for="course">Póstnúmer:</label>
-            <select class="form_input" name="zip">
+            <label class="form_label" for="zip">Póstnúmer:</label>
+            <select class="form_input" id="zip">
               <option value ="-Velja póstnúmer-">-Velja póstnúmer-</option>
               <option value ="101 Reykjavík">101 Reykjavík</option>
               <option value ="103 Reykjavík">103 Reykjavík</option>
@@ -301,16 +301,16 @@
           <h2>Greiðsluupplýsingar</h2>
           <div class="form_item">
               <label class="form_label" for="cardnr">Kortanúmer:</label>
-              <input class="form_input" type="text" name="cardnr">
+              <input class="form_input" type="text" id="cardnr">
             </div>
           <div class="form_item">
             <label class="form_label" for="cardholder">Korthafi:</label>
-            <input class="form_input" type="text" name="cardholder">
+            <input class="form_input" type="text" id="cardholder">
           </div>
           <div class="form_item">
             <label class="form_label" for="valid">Gildistími:</label>
             <label class="form_label" for="month">Mán</label>
-              <select class="form_input_month" name="month">
+              <select class="form_input_month" id="month">
                   <option value="jan">01</option>
                   <option value="feb">02</option>
                   <option value="mar">03</option>
@@ -325,7 +325,7 @@
                   <option value="des">12</option>
               </select>
             <label class="form_label" for="year">Ár</label>
-              <select class="form_input_year" name="year">
+              <select class="form_input_year" id="year">
                 <option value="2019">2019</option>
                 <option value="2020">2020</option>
                 <option value="2021">2021</option>
