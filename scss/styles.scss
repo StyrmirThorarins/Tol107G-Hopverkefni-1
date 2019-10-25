@@ -60,7 +60,7 @@ main { /* stylelint-disable-line */
   &_button_add{
     width: 9rem;
     height: 2.5rem;
-    padding-right: 1rem;
+    padding-right: $gutter*0.5;
     font-family: $font-main;
     font-size: 1rem;
     color: $color-1;
@@ -78,8 +78,8 @@ main { /* stylelint-disable-line */
   &_button_delete{
     width: 10rem;
     height: 2.5rem;
-    margin-left: 0.5rem;
-    padding-right: 1rem;
+    margin-left: $gutter*0.5;;
+    padding-right: $gutter*0.5;
     font-family: $font-main;
     font-size: 1rem;
     color: $color-1;
@@ -98,8 +98,8 @@ main { /* stylelint-disable-line */
   &_button_update{
     width: 8rem;
     height: 2.5rem;
-    margin-left: 0.5rem;
-    padding-right: 1rem;
+    margin-left: $gutter*0.5;
+    padding-right: $gutter*0.5;
     font-family: $font-main;
     font-size: 1rem;
     color: $color-1;
@@ -119,8 +119,8 @@ main { /* stylelint-disable-line */
     font-family: $font-heading;
     font-size: 1rem;
     font-weight: bold;
-    margin-top: $gutter*8;
-    margin-bottom:$gutter*0.2;
+    margin-top: $gutter*3;
+    margin-bottom:$gutter*0.5;
     margin-top: 2rem;
   }
 
@@ -140,7 +140,7 @@ main { /* stylelint-disable-line */
     max-width: $max-width;
     padding-top: $gutter * 2;
     padding-bottom: $gutter *2;
-    padding-left: $gutter *1.5;
+    padding-left: $gutter *2;
     margin: 0 auto;
 
     @media (max-width: $max-width -1) {
@@ -226,7 +226,7 @@ main { /* stylelint-disable-line */
 h2 {
   font-family: $font-heading;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: $gutter*0.5;
 }
 
 .main_text {
@@ -299,7 +299,7 @@ h2 {
 
   &_button {
     padding-right: $gutter;
-    padding-left: 30px;
+    padding-left: $gutter;
     color: $color-1;
     text-decoration: none;
     background-image: url("/img/cart.svg");
@@ -327,8 +327,8 @@ h2 {
   flex-wrap: wrap;
 
   &_button {
-    padding: 1em 6.25rem;
-    margin: $gutter*0.5;
+    height: 2.5rem;
+    width: 18rem;
     font-size: 1rem;
     color: $color_1;
     text-align: center;
@@ -370,8 +370,8 @@ h2 {
       &_month{
         width: 4rem;
         height: 2.5rem;
-        padding: 0.5rem;
-        margin: 0.5rem;
+        padding: $gutter*0.5;
+        margin: $gutter*0.5;
         border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
       }
@@ -379,16 +379,16 @@ h2 {
       &_nr{
         width: 5rem;
         height: 2.5rem;
-        padding: 0.5rem;
-        margin: 0.1rem;
+        padding: $gutter*0.5;
+        padding: $gutter*0.5;
         border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
 
         &_prod{
           width: 22rem;
           height: 2.5rem;
-          padding: 0.5rem;
-          margin: 0.1rem;
+          padding: $gutter*0.5;
+          margin: $gutter*0.5;
           border: 0.1rem solid $color-1;
           border-radius: 0.2rem;
           @media (min-width: 700px) and (max-width:1200px){
@@ -401,16 +401,16 @@ h2 {
       &_year{
         width: 5rem;
         height: 2.5rem;
-        padding: 0.5rem;
-        margin: 0.5rem;
+        padding: $gutter*0.5;
+        margin: $gutter*0.5;
         border: 0.0625rem solid $color_1;
         border-radius: 0.1875rem;
       }
       &_course{
         width: 22rem;
         height: 2.5rem;
-        padding: 0.5rem;
-        border: 0.0625rem solid $color_1;
+        padding: $gutter*0.5m;
+        border: $gutter*0.5 solid $color_1;
         border-radius: 0.1875rem;
         @media(min-width:700px) and (max-width:1200px){
           width: 12rem;

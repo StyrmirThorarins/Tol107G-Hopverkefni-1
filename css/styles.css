@@ -134,7 +134,7 @@ main {
   .cart_button_add {
     width: 9rem;
     height: 2.5rem;
-    padding-right: 1rem;
+    padding-right: 0.625em;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
     color: #000;
@@ -150,8 +150,8 @@ main {
   .cart_button_delete {
     width: 10rem;
     height: 2.5rem;
-    margin-left: 0.5rem;
-    padding-right: 1rem;
+    margin-left: 0.625em;
+    padding-right: 0.625em;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
     color: #000;
@@ -167,8 +167,8 @@ main {
   .cart_button_update {
     width: 8rem;
     height: 2.5rem;
-    margin-left: 0.5rem;
-    padding-right: 1rem;
+    margin-left: 0.625em;
+    padding-right: 0.625em;
     font-family: "Open Sans", helvetica, arial, sans-serif;
     font-size: 1rem;
     color: #000;
@@ -185,8 +185,8 @@ main {
     font-family: "Oswald", verdana, serif;
     font-size: 1rem;
     font-weight: bold;
-    margin-top: 10em;
-    margin-bottom: 0.25em;
+    margin-top: 3.75em;
+    margin-bottom: 0.625em;
     margin-top: 2rem; }
   .cart_price {
     font-family: "Oswald", verdana, serif;
@@ -201,7 +201,7 @@ main {
     max-width: 75em;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
-    padding-left: 1.875em;
+    padding-left: 2.5em;
     margin: 0 auto; }
     @media (max-width: 75em -1) {
       .footer_container {
@@ -261,7 +261,7 @@ main {
 h2 {
   font-family: "Oswald", verdana, serif;
   font-size: 2rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 0.625em; }
 
 .main_text {
   margin-top: 2rem;
@@ -315,7 +315,7 @@ h2 {
         justify-content: flex-end; } }
   .nav_button {
     padding-right: 1.25em;
-    padding-left: 30px;
+    padding-left: 1.25em;
     color: #000;
     text-decoration: none;
     background-image: url("/img/cart.svg");
@@ -336,8 +336,8 @@ h2 {
   font-size: 1.125rem;
   flex-wrap: wrap; }
   .form_button {
-    padding: 1em 6.25rem;
-    margin: 0.625em;
+    height: 2.5rem;
+    width: 18rem;
     font-size: 1rem;
     color: #000;
     text-align: center;
@@ -370,22 +370,22 @@ h2 {
     .form_input_month {
       width: 4rem;
       height: 2.5rem;
-      padding: 0.5rem;
-      margin: 0.5rem;
+      padding: 0.625em;
+      margin: 0.625em;
       border: 0.0625rem solid #000;
       border-radius: 0.1875rem; }
     .form_input_nr {
       width: 5rem;
       height: 2.5rem;
-      padding: 0.5rem;
-      margin: 0.1rem;
+      padding: 0.625em;
+      padding: 0.625em;
       border: 0.0625rem solid #000;
       border-radius: 0.1875rem; }
       .form_input_nr_prod {
         width: 22rem;
         height: 2.5rem;
-        padding: 0.5rem;
-        margin: 0.1rem;
+        padding: 0.625em;
+        margin: 0.625em;
         border: 0.1rem solid #000;
         border-radius: 0.2rem; }
         @media (min-width: 700px) and (max-width: 1200px) {
