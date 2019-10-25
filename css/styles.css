@@ -252,7 +252,8 @@ main {
     display: flex;
     max-width: 75em;
     margin: 0 auto;
-    flex-direction: column; }
+    flex-direction: column;
+    text-align: center; }
   .header_title {
     margin-bottom: 1.25em;
     font-family: "Oswald", verdana, serif;
